@@ -399,3 +399,10 @@ Gender = Male
 BaseMoney = 100
 BattleBGM = Battle Champion
 VictoryBGM = Battle victory leader
+#-------------------------------
+[TOPLANER]
+Name = Top Laner
+Gender = Male
+BaseMoney = 4000
+BattleBGM = TakChampion
+VictoryBGM = Battle victory leader
