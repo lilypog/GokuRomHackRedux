@@ -406,3 +406,23 @@ Gender = Male
 BaseMoney = 4000
 BattleBGM = TakChampion
 VictoryBGM = Battle victory leader
+#-------------------------------
+[JUNGLER]
+Name = Jungler
+Gender = Male
+BaseMoney = 10
+#-------------------------------
+[MIDLANER]
+Name = Mid Laner
+Gender = Female
+BaseMoney = 10
+#-------------------------------
+[ADC]
+Name = ADC
+Gender = Male
+BaseMoney = 10
+#-------------------------------
+[SUPPORT]
+Name = Support
+Gender = Female
+BaseMoney = 10
