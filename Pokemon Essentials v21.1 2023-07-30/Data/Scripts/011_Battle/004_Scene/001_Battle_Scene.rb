@@ -181,6 +181,7 @@ class Battle::Scene
 
   # NOTE: A regular message is displayed for 1 second after it fully appears (or
   #       less if Back/Use is pressed). Disappears automatically after that time.
+  # NOTE: This has been edited to wait for a button press to advance the text.
   def pbDisplayMessage(msg, brief = false)
     pbWaitMessage
     pbShowWindow(MESSAGE_BOX)
