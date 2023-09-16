@@ -213,6 +213,7 @@ class Battle::Battler
     end
     @effects[PBEffects::MeFirst]             = false
     @effects[PBEffects::Metronome]           = 0
+    @effects[PBEffects::JaxPassive]          = 0
     @effects[PBEffects::MicleBerry]          = false
     @effects[PBEffects::Minimize]            = false
     @effects[PBEffects::MiracleEye]          = false

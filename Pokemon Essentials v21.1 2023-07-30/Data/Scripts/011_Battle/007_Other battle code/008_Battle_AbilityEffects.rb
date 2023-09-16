@@ -63,6 +63,7 @@ module Battle::AbilityEffects
   OnIntimidated                    = AbilityHandlerHash.new   # Rattled (Gen 8)
   # Running from battle
   CertainEscapeFromBattle          = AbilityHandlerHash.new   # Run Away
+  StrongThirdHit                   = AbilityHandlerHash.new   # Jax Passiv
 
   #=============================================================================
 
@@ -3204,5 +3205,15 @@ Battle::AbilityEffects::OnIntimidated.add(:RATTLED,
 Battle::AbilityEffects::CertainEscapeFromBattle.add(:RUNAWAY,
   proc { |ability, battler|
     next true
+  }
+)
+
+Battle::AbilityEffects::StrongThirdHit.add(:RELENTLESS,
+  proc { |ability, battler|
+      if PBEffects::JaxPassive % 3 == 0
+        mults[:attack_multiplier] *= 2
+        battle.pbDisplay(_INTL("{1} hit extra hard!", user.pbThis))
+      end
+    end
   }
 )

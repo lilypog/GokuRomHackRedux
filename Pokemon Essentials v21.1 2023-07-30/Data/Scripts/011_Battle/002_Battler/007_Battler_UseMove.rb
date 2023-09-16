@@ -235,6 +235,16 @@ class Battle::Battler
         @effects[PBEffects::Metronome] = 0
       end
     end
+
+    # Unique Metronome effect for Jax Passive Ability
+    if hasActiveAbility?(:RELENTLESS) && !move.callsAnotherMove?
+      if @lastMoveUsed && !@lastMoveFailed
+        @effects[PBEffects::JaxPassive] += 1
+      else
+        @effects[PBEffects::JaxPassive] = 0
+      end
+    end
+
     # Record move as having been used
     @lastMoveUsed     = move.id
     @lastMoveUsedType = move.calcType   # For Conversion 2

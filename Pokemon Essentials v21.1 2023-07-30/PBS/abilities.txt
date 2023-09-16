@@ -1194,3 +1194,7 @@ Description = Boosts Attack in Tailwind or when attacked by wind moves.
 [ZEROTOHERO]
 Name = Zero to Hero
 Description = Transforms into its Hero Form when it switches out.
+#-------------------------------
+[RELENTLESS]
+Name = Relentless Assault
+Descrription = Every third consecutive attack deals much more damage.

@@ -65,6 +65,7 @@ class Battle::ActiveSide
     @effects[PBEffects::JaxWind]            = 0
     @effects[PBEffects::ToxicSpikes]        = 0
     @effects[PBEffects::WideGuard]          = false
+    @effects[PBEffects::JaxPassive]         = 0
   end
 end
 
