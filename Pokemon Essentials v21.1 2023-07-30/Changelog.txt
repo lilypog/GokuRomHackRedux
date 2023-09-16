@@ -1,0 +1,181 @@
+[U][SIZE="5"]PBS Files[/SIZE][/U]
+[SPOILER][B]Pokemon[/B]
+[LIST]
+[*]Updated move learn sets of all species.
+[*]Made it so that Pokemon can now have moves added to their level-up learn set that are learned at level -1. This is used for Move Relearner-exclusive moves that the Pokemon isn't meant to learn at any level, not even level 1. This is a feature that was introduced in Scarlet & Voilet.
+[*]Added Move Relearner-exclusive moves to the learn sets of all appropriate species.
+[*]Added the appropriate form names to all Gen 9 and PLA species.
+[*]Added Tera Blast to the tutor move list of all eligible species. This includes everything besides Magikarp, Ditto, Smeargle, Unown, Wobbuffet, and Wynaut.
+[*]Added the "Paradox" flag to all paradox species.
+[*]Added the "Mystical" flag to all mystical Pokémon.
+[*]Added the "Legendary" flag to all legendary Pokémon.
+[*]Added the Linking Cord as an alternative item-based evolution method for Kadabra, Machoke, Graveler and Haunter, like it's used in PLA.
+[*]Added in battle effect for the Illumate ability.
+[*]Gave Tandemaus a normal level-up evolution method, and removed the method it used previously.
+[*]Gave Bisharp the Leader's Crest as its uncommon wild held item.
+[*]Gave Iron Leaves/Walking Wake tentative Pokedex entries based on Pokemon Home.
+[*]Change Overqwil evolution requirement to level up after using Barb Barrage at least 20 times.
+[*]Change Sneasler evolution requirement to level up while holding a Razor Claw during the day.
+[*]Rename the walk evolution method name to :LevelWalk.
+[*]Updated Kleavor and Hisuian Zoroark stats.
+[/LIST]
+
+[B]Moves[/B]
+[LIST][*]All PLA moves updated to have the appropriate stats that they have in Scarlet/Voilet.
+[*]All of the newly added moves have been given the appropriate move flags that they're supposed to have.
+[*]Renamed the function codes for nearly all of the newly added moves in this plugin.
+[*]Added appropriate move flags for compatibility with the PLA Battle Styles plugin.
+[*]Added new move function "RecoilHalfOfTotalHP" for Chloroblast.
+[/LIST]
+
+[B]Abilities[/B]
+[LIST][*]Implemented Futuresushi's shortened Ability descriptions so that they don't break the default Essentials UI.[/LIST]
+
+[B]Items[/B]
+[LIST][*]Shortened the description of certain items so they no longer break the default Essentials UI.
+[*]Added missing Fling damage flags on several items.
+[*]Added appropriate item flags for compatibility with the Terastal Phenomenon plugin.[/LIST][/SPOILER]
+
+[U][SIZE="5"]Scripts[/SIZE][/U]
+[SPOILER][B]General[/B]
+[LIST][*]Overhauled all of the code in the entire plugin. Implemented aliases wherever possible to avoid overwriting huge portions of code. This should make the plugin more efficient, while also much more inherently compatible with loads of other plugins, as well as custom script changes. Also rewrote and renamed entire methods for more clarity, and added new methods for more convenience.
+[*]Restructured and reorganized how the plugin scripts are named and sorted to be more accessible and easy to use.
+[*]Created a new Settings file to customize some of the new mechanics added by this plugin.[/LIST]
+
+[B]Related to Pokemon[/B]
+[LIST][*]Added the feature which allows for Move Relearner-exclusive moves in a species' learn set.
+[*]Added the feature which allows Pokemon in the party to inherit Egg Moves from each other when a Mirror Herb is held. This is checked for as the player walks, and will pass a random compatible Egg Move to the Mirror Herb holder every 100 steps or so. The Pokemon must have an empty move slot to inherit any Egg Moves.
+[*]Added a feature to the Pokemon Summary. You can now Nickname a Pokemon directly in this UI when you open the Options menu. In addition, you can also relearn or forget moves directly from their Moves page, as well as teach them any compatible TM's.
+[*]Reworked the evolution handlers for all of the new evolution methods added by this plugin. They should now be tracked far more accurately, with less bloat.
+[*]Fixed an issue where this plugin previously overwrote Alolan and Galarian species spawning in their correct forms when hatched from eggs. All regional forms should now hatch from eggs in the correct form.
+[*]Made it so Quilava, Dewott, and Dartrix will now automatically be forced into form 1 if you are in the Hisui region (region 3 by default). This allows them to appropriately evolve into their Hisuian evolutions.
+[*]Fixed a typo in Squawkabilly's form handler that prevented it from correctly spawning in random forms.
+[*]Added in battle effect for the Illumate ability.[/LIST]
+
+[B]Related to Battle[/B]
+[SPOILER][B]Weather[/B]
+[LIST][*]Overhauled the Hail weather so you can now toggle four different versions of this weather with [ICODE]HAIL_WEATHER_TYPE[/ICODE] in the plugin Settings.
+[LIST][*]0: The normal Hail weather that exists in vanilla Essentials by default. Deals damage to non-Ice types each turn.
+[*]1: The new Snow weather that replaces Hail. This is the Gen 9 version of this weather that boosts the Defense of Ice-type Pokemon by 50%.
+[*]2: A Hailstorm weather that combines Hail and Snow. This is a custom weather that combines all three effects above into a single weather type.[/LIST][/LIST]
+
+[B]Statuses[/B]
+[LIST][*]Drowsy
+[SPOILER]Added the Drowsy status introduced in PLA. This status can be used in two ways. If [ICODE]SLEEP_EFFECTS_CAUSE_DROWSY[/ICODE] is set to true in the plugin Settings, then all effects in the game that would normally inflict or check for the Sleep status will now call the Drowsy status instead. This effectively replaces Sleep in your game with the Drowsy status. If this is instead set to false, then Drowsy and Sleep are treated as unrelated status conditions, and may be inflicted independently of each other. Note however, that you'll have to customize moves and effects to specifically apply the Drowsy status in this case.
+
+[U]Drowsy status effects:[/U]
+[LIST][*]The user has a 33% chance to be unable to act each turn. This doubles to 66% in Snow/Hail.
+[*]The user takes 33% more damage from attacks while Drowsy.
+[*]Drowziness may end naturally after 3-4 turns.
+[*]Drowsiness may end early if a move with the "ElectrocuteUser" flag is used on or by the user.[/LIST]
+
+[U]Interactions:[/U]
+[LIST][*]All items that may be used to cure the Sleep status will now also do so with the Drowsy status. This includes the Chesto Berry, Awakening, Blue Flute, and Poke Flute.
+[*]All moves that cure the Sleep status will now also do so with the Drowsy status. This includes Aromatherapy/Heal Bell, Jungle Healing/Lunar Blessing, Psycho Shift, Wake-Up Slap, and Uproar.
+[*]All abilities that prevent or cure the Sleep status will now also do so with the Drowsy status. This includes Insomnia/Vital Spirit, Healer, Hydration, and Shed Skin.
+[*]The Synchronize ability may now also pass on the Drowsy status.
+[*]Added the [ICODE]DrowseTarget[/ICODE] function code to be given to moves to allow them to inflict the Drowsy status.[/LIST][/SPOILER]
+
+[*]Frostbite
+[SPOILER]Added the Frostbite status introduced in PLA. This status can be used in two ways. If [ICODE]FREEZE_EFFECTS_CAUSE_FROSTBITE[/ICODE] is set to true in the plugin Settings, then all effects in the game that would normally inflict or check for the Frozen status will now call the Frostbite status instead. This effectively replaces Freeze in your game with the Frostbite status. If this is instead set to false, then Frostbite and Freeze are treated as unrelated status conditions, and may be inflicted independently of each other. Note however, that you'll have to customize moves and effects to specifically apply the Frostbite status in this case.
+
+[U]Frostbite status effects:[/U]
+[LIST][*]The user takes damage at the end of each round equal to 1/16th their max HP.
+[*]Damage dealt by the user's special attacks is halved.
+[*]Frostbite may end early if a move with the "ThawsUser" flag is used on or by the user.[/LIST]
+
+[U]Interactions:[/U]
+[LIST][*]Made it so that moves that have a chance to inflict Frostbite will have their chances doubled when used during Hail/Snow.
+[*]All items that may be used to cure the Frozen status will now also do so with the Frostbite Status. This includes the Aspear Berry and Ice Heal.
+[*]All moves that cure the Frozen status will now also do so with the Frostbite status. This includes Aromatherapy/Heal Bell, and Jungle Healing/Lunar Blessing.
+[*]All abilities that prevent or cure the Frozen status will now also do so with the Frostbite status. This includes Magma Armor, Healer, Hydration, and Shed Skin.
+[*]The move Psycho Shift and the ability Synchronize may now also pass on the Frostbite status.
+[*]Added the [ICODE]FrostbiteTarget[/ICODE] function code to be given to moves to allow them to inflict the Frostbite status.[/LIST][/LIST][/SPOILER]
+
+[B]Moves[/B]
+[SPOILER][LIST][*]Added the [ICODE]DrowseTarget[/ICODE] function code to be used by custom moves to inflict the Drowsy status.
+[*]Added the [ICODE]FrostbiteTarget[/ICODE] function code to be used by custom moves to inflict the Frostbite status.
+[*]Added the [ICODE]StartSplintersTarget[/ICODE] function code to be used by custom moves to inflict the Splinters effect from PLA.
+[*]Added the [ICODE]DamageTargetAddSpikesToFoeSide[/ICODE] function code to apply Spikes to the opposing side with a damage-dealing move, like the Gen 9 version of Ceaseless Edge.
+[*]Added the [ICODE]DamageTargetAddStealthRocksToFoeSide[/ICODE] function code to apply Stealth Rocks to the opposing side with a damage-dealing move, like the Gen 9 version of Stone Axe.
+[*]Added the [ICODE]ElectrocuteUser[/ICODE] flag to be given to moves. This functions how the [ICODE]ThawsUser[/ICODE] flag does, but for the Drowsy status.
+[*][U]Psycho Shift[/U]: This move may now pass on the Drowsy and Frostbite statuses.
+[*][U]Aromatherapy[/U]: This move and others like it may now also heal the party's Drowsy and Frostbite statuses.
+[*][U]Jungle Healing[/U]: This move and others like it may now also heal the Drowsy and Frostbite statuses.
+[*][U]Wake-Up Slap[/U]: This move may now also remove the target's Drowsy status.
+[*][U]Uproar[/U]: This move may now also heal and prevent any battler's Drowsy status.
+[*][U]Rest[/U]: This move now fails when used by a Pokemon with the Purifying Salt ability.
+[*][U]Dragon Tail[/U]: This move and other moves like it will now be able to properly hit Pokemon with the Guard Dog ability, its switch-out effects simply won't activate.
+[*][U]Tailwind[/U]: Added the missing proc for the Wind Rider ability.
+[*][U]Charge[/U]: When MECHANICS_GENERATION is set to 9+, the Charge effect will remain on the user indefinitely until they either switch or use an Electric-type move, instead of counting down each turn. This applies to all other effects that apply the Charge effect, too.
+[*][U]Spark[/U]: Gave this move the "ElectrocuteUser" flag, as it does in PLA.
+[*][U]Volt Tackle[/U]: Gave this move the "ElectrocuteUser" flag, as it does in PLA.
+[*][U]Wild Charge[/U]: Gave this move the "ElectrocuteUser" flag, as it does in PLA.
+[*][U]Ally Switch[/U]: This move now properly works off the Protect counter, as it does in Gen 9. You may now switch between the Gen 9 and older variants of this move with the MECHANICS_GENERATION setting.
+[*][U]Fling[/U]: The additional effects of this move when flinging certain items are now blocked by Covert Cloak.
+[*][U]Skill Swap[/U]: This move will now fail if the user is holding an Ability Shield.
+[*][U]Core Enforcer[/U]: This move will now properly hit Pokemon holding an Ability Shield, its ability suppression effects simply won't activate.
+[*][U]Sunsteel Strike[/U]: This move and other moves like it will no longer ignore the target's ability if they are holding an Ability Shield.
+[*][U]Judgment[/U]: This move now functions like it does in PLA if the user is holding a Legend Plate. This will cause the user to change type and form into one that would be most effective against the current target. This move's typing will also change to reflect this. The typing of this move while displayed in the fight menu will now reflect its actual type, instead of always displaying as Normal. An edited version based on Eskiss's Functional Legend Plate.
+[*][U]Power Shift[/U]: This move now functions identically to Power Trick.
+[*][U]Wave Crash[/U]: This move now functions identically to other recoil moves, like Brave Bird.
+[*][U]Lunar Blessing[/U]: This move now functions identically to Jungle Healing.
+[*][U]Triple Arrows[/U]: This move now applies its Defense drop and flinching effects separately, like the Elemental Fangs do.
+[*][U]Ceaseless Edge[/U]: This move now properly applies Spikes on the opponent's side. If MECHANICS_GENERATION is set below 9, this move will inflict the splinters effect instead, like it does in PLA.
+[*][U]Stone Axe[/U]: This move now properly applies Stealth Rocks on the opponent's side. If MECHANICS_GENERATION is set below 9, this move will inflict the splinters effect instead, like it does in PLA.
+[*][U]Collision Course[/U]: This move and other moves like it now have the proper damage modifier applied to Super Effective hits.
+[*][U]Raging Bull[/U]: This move now properly changes type to match the user's form, as well as removing screens. The typing of this move while displayed in the fight menu will now reflect its actual type, instead of always displaying as Normal.
+[*][U]Silk Trap[/U]: This move now works as intended, as previously the check for this move wasn't initialized properly.
+[*][U]Glaive Rush[/U]: After using this move, the any attacks against the user will now have perfect accuracy, as intended. This vulnerable state now ends immediately after the user uses its next move, instead of always lasting until the end of the next turn.
+[*][U]Spicy Extract[/U]: This move now raises/lowers the targets stats by the correct number of stages.
+[*][U]Tidy Up[/U]: This move now raises Attack/Speed like it should. This move will now only fail if all possible effects of the move would fail.
+[*][U]Order Up[/U]: This move may now call different animations based on the form of Tatsugiri commanding the user. Note however that these animations aren't included in the plugin by default.[/LIST][/SPOILER]
+
+[B]Abilities[/B]
+[SPOILER][LIST][*][U]Insomnia[/U]: This ability and others like it now also block/cure the Drowsy status.
+[*][U]Magma Armor[/U]: This ability now also blocks/cures the Frostbite status.
+[*][U]Healer[/U]: This ability may now also heal the Drowsy and Frostbite statuses.
+[*][U]Hydration[/U]: This ability may now also heal the Drowsy and Frostbite statuses.
+[*][U]Shed Skin[/U]: This ability may now also heal the Drowsy and Frostbite statuses.
+[*][U]Synchronize[/U]: This ability may now also pass on the Drowsy and Frostbite statuses.
+[*][U]Intimidate[/U]: Items that proc off of this ability triggering, such as the Adrenaline Orb, may no longer trigger on targets with the Guard Dog ability if their Attack is already at +6.
+[*][U]Poison Touch[/U]: This ability is now blocked by Covert Cloak.
+[*][U]Wandering Spirit[/U]: This ability now fails if either Pokemon is holding an Ability Shield.
+[*][U]Protean[/U]: This ability and others like it are only limited to once per switch-in when MECHANICS_GENERATION is set to 9+.
+[*][U]Intrepid Sword[/U]: This ability and others like it are only limited to once per battle when MECHANICS_GENERATION is set to 9+.
+[*][U]Battle Bond[/U]: This ability raises the user's stats instead of changing into Ash-Greninja only when MECHANICS_GENERATION is set to 9+.
+[*][U]Armor Tail[/U]: Corrected an issue that overwrote Queenly Majesty from sharing this ability's effect.
+[*][U]Opportunist[/U]: This ability has been completely redone so that it now works as it's intended to.
+[*][U]Costar[/U]: This ability may now also copy an ally's Focus Energy boosts, as it's intended to.
+[*][U]Orichalcum Pulse[/U]: This ability and others like it now apply the correct damage multiplier in the right conditions.
+[*][U]Mycelium Might[/U]: The user's held Quick Claw may no longer proc if using a status move with this ability.
+[*][U]Seed Sower[/U]: Fixed the redundant terrain-setting message.
+[*][U]Thermal Exchange[/U]: This ability may now heal the user's Burn if it's somehow burned while having this ability.
+[*][U]Toxic Debris[/U]: This ability will no longer trigger if the user is behind a substitute. This ability will now always lay Toxic Spikes on the opponent's side, even if struck by an ally. The Toxic Spikes animation will now play whenever this ability is triggered.
+[*][U]Protosynthesis[/U]: This ability now takes stat stages into account when determining which to boost. The user also ignores the effect of a held Utility Umbrella, or the Cloud Nine/Airlock abilities when determining whether to trigger this ability.
+[*][U]Quark Drive[/U]: This ability now takes stat stages into account when determining which to boost.
+[*][U]Zero to Hero[/U]: Fixed a crash that would occur when ending a battle before a user of this ability on the field has transformed.
+[*][U]Commander[/U]: Fixed all of the switching-related inconsistencies this ability previously had. The user's actions will now be properly cancelled if it selected a move on the same turn this ability triggered. When this ability is active, the user's sprite will now be hidden for the duration of this ability's effect.[/LIST][/SPOILER]
+
+[B]Items[/B]
+[SPOILER][LIST][*][U]Adamant Crystal[/U]: This item may no longer be removed if the holder is Dialga.
+[*][U]Lustrous Globe[/U]: This item may no longer be removed if the holder is Palkia.
+[*][U]Griseous Core[/U]: This item may no longer be removed if the holder is Giratina.
+[*][U]Blank Plate[/U]: This item may no longer be removed if the holder is Arceus.
+[*][U]Legend Plate[/U]: This item may no longer be removed if the holder is Arceus. Changes how the move Judgment works if held by the Arceus.
+[*][U]Booster Energy[/U]: This item may no longer be removed if the holder is a species with the "Paradox" flag and has either the Protosynthesis or Quark Drive abilities.
+[*][U]Chesto Berry[/U]: This item may now also heal the Drowsy status.
+[*][U]Aspear Berry[/U]: This item may now also heal the Frostbite status.
+[*][U]Lum Berry[/U]: This item may now also heal the Drowsy and Frostbite statuses.
+[*][U]Hopo Berry[/U]: Corrected an issue that overwrote Leppa Berry from sharing this item's effect.
+[*][U]Hisuian Heavy Ball[/U]: This ball now has an increased capture rate on Pokemon with a low base Speed stat (50 or lower). This effect is shared by the Leaden and Gigaton Balls, and scale in strength.
+[*][U]Feather Ball[/U]: This ball now has an increased capture rate on airborne Pokemon, or those with a high base Speed stat (100 or higher). This effect is shared by the Wing and Jet Balls, and scale in strength.
+[*][U]Origin Ball[/U]: This ball now functions identically to a Master Ball when specifically used on Dialga, Palkia or Giratina while in their Origin Formes.
+[*][U]Quick Claw[/U]: This item may no longer proc if the user has the Mycelium Might ability and is using a status move.
+[*][U]Mirror Herb[/U]: This item has been completely redone so that it now works as it's intended to. This item can now proc off of an opponent's Opportunist ability, but it can't proc off of other Mirror Herbs.[/LIST][/SPOILER][/SPOILER][/SPOILER]
+
+[U][SIZE="5"]Other[/SIZE][/U]
+[SPOILER][LIST][*]Included new status icon graphics that replaces your old files. These include new icons for the Drowsy/Frostbite statueses.
+[*]Included optional files in PBS/Plugins for compatibility with Essentials Deluxe and other plugins which rely on it. You may delete the files found here that aren't relevant to you.
+[*]Added the missing back and follower sprites.
+[/LIST][/SPOILER]
