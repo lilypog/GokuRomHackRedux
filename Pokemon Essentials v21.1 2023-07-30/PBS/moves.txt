@@ -8712,7 +8712,7 @@ FunctionCode = RaiseUserDefense1
 Description = The user withdraws its body into its hard shell, raising its Defense stat.
 #-------------------------------
 [LEAPSTRIKE]
-Name = Jax Q
+Name = Q
 Type = FLYING
 Category = Physical
 Power = 80
@@ -8724,7 +8724,7 @@ Flags = Contact,CanProtect,CanMirrorMove
 Description = The user leaps towards the target. This move lands without fail.
 #-------------------------------
 [EMPOWER]
-Name = Jax W
+Name = W
 Type = FIGHTING
 Category = Physical
 Power = 40
@@ -8736,7 +8736,7 @@ Flags = Contact,CanProtect,CanMirrorMove
 Description = User strikes the target two times, with the second hit doing increased damage.
 #-------------------------------
 [GMMIGHT]
-Name = Jax Ult
+Name = R
 Type = FIGHTING
 Category = Special
 Power = 100
@@ -8749,7 +8749,7 @@ EffectChance = 100
 Description = User strikes the area around them with an improvised weapon. Raises the user's defenses.
 #-------------------------------
 [COUNTERSTRIKE]
-Name = Jax E
+Name = E
 Type = STEEL
 Category = Special
 Power = 70
