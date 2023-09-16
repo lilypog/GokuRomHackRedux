@@ -631,3 +631,74 @@ class Battle::Move::MultiTurnAttackBideThenReturnDoubleDamage < Battle::Move::Fi
     super
   end
 end
+
+#===============================================================================
+# Hits 2 times. Power is multiplied by the hit number. (Empower)
+# An accuracy check is performed for each hit.
+#===============================================================================
+class Battle::Move::HitTwoTimesPowersUpWithEachHit < Battle::Move
+  def multiHitMove?;            return true; end
+  def pbNumHits(user, targets); return 2;    end
+
+  def successCheckPerHit?
+    return @accCheckPerHit
+  end
+
+  def pbOnStartUse(user, targets)
+    @calcBaseDmg = 0
+    @accCheckPerHit = !user.hasActiveAbility?(:SKILLLINK)
+  end
+
+  def pbBaseDamage(baseDmg, user, target)
+    @calcBaseDmg += baseDmg
+    return @calcBaseDmg
+  end
+end
+
+#===============================================================================
+# Two turn attack. Skips first turn, attacks second turn. (Jax E)
+# (Handled in Battler's pbSuccessCheckPerHit): Is semi-invulnerable during use.
+#===============================================================================
+# class Battle::Move::TwoTurnAttackInvulnerableToContact < Battle::Move::TwoTurnMove
+
+  # def pbChargingTurnMessage(user, targets)
+    # @battle.pbDisplay(_INTL("{1} started to swing their lamp!", user.pbThis))
+  # end
+# end
+
+# #===============================================================================
+# # Two turn attack. Skips first turn, attacks second turn. Causes target to flinch. (Jax E)
+# # (Is semi-invulnerable during use.)
+# #===============================================================================
+# class Battle::Move::TwoTurnDodgeFlinchTarget < Battle::Move::TwoTurnAttackInvulnerableToContact
+  # def flinchingMove?; return true; end
+
+  # def pbEffectAgainstTarget(user, target)
+    # return if damagingMove?
+    # target.pbFlinch(user)
+  # end
+
+  # def pbAdditionalEffect(user, target)
+    # return if target.damageState.substitute
+    # target.pbFlinch(user)
+  # end
+# end
+
+#===============================================================================
+# Two turn attack. Skips first turn, attacks second turn. Causes target to flinch. 
+# User is faster next turn (Is semi-invulnerable during use.) (Jax E)
+#===============================================================================
+class Battle::Move::JaxCounterStrike < Battle::Move::TwoTurnMove
+  def flinchingMove?; return true; end
+  
+   def pbChargingTurnMessage(user, targets)
+    @battle.pbDisplay(_INTL("{1} started to swing their lamp!", user.pbThis))
+  end
+  
+  def pbAdditionalEffect(user, target)
+	return if target.damageState.substitute
+	@battle.pbDisplay(_INTL("{1} is preparing to counter!", user.pbThis))
+    user.pbOwnSide.effects[PBEffects::Tailwind] = 2
+	target.pbFlinch(user)
+  end
+end

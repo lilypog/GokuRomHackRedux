@@ -559,6 +559,8 @@ class Battle::Battler
           miss = true if !move.hitsDivingTargets?
         elsif target.inTwoTurnAttack?("TwoTurnAttackInvulnerableRemoveProtections")
           miss = true
+		elsif target.inTwoTurnAttack?("JaxCounterStrike")
+		  miss = true if move.pbContactMove?(user)
         end
       end
       if target.effects[PBEffects::SkyDrop] >= 0 &&
