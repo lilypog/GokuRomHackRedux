@@ -3214,6 +3214,5 @@ Battle::AbilityEffects::StrongThirdHit.add(:RELENTLESS,
         mults[:attack_multiplier] *= 2
         battle.pbDisplay(_INTL("{1} hit extra hard!", user.pbThis))
       end
-    end
   }
 )
