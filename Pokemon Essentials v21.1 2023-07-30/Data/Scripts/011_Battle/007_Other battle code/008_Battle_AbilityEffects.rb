@@ -3209,8 +3209,8 @@ Battle::AbilityEffects::CertainEscapeFromBattle.add(:RUNAWAY,
 )
 
 Battle::AbilityEffects::StrongThirdHit.add(:RELENTLESS,
-  proc { |ability, battler|
-      if PBEffects::JaxPassive % 3 == 0
+  proc { |ability, battler, battle|
+      if (battler.effects[PBEffects::JaxPassive] % 3) == 0
         mults[:attack_multiplier] *= 2
         battle.pbDisplay(_INTL("{1} hit extra hard!", user.pbThis))
       end
