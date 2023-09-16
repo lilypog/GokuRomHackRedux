@@ -580,10 +580,12 @@ Battle::AI::Handlers::MoveEffectScore.add("StartSlowerBattlersActFirst",
       if b.opposes?(user)
         foe_speeds.push(b.rough_stat(:SPEED))
         foe_speeds.last *= 2 if user.pbOpposingSide.effects[PBEffects::Tailwind] > 1
+        foe_speeds.last *= 2 if user.pbOpposingSide.effects[PBEffects::JaxWind] > 1
         foe_speeds.last /= 2 if user.pbOpposingSide.effects[PBEffects::Swamp] > 1
       else
         ally_speeds.push(b.rough_stat(:SPEED))
         ally_speeds.last *= 2 if user.pbOwnSide.effects[PBEffects::Tailwind] > 1
+        ally_speeds.last *= 2 if user.pbOwnSide.effects[PBEffects::JaxWind] > 1
         ally_speeds.last /= 2 if user.pbOwnSide.effects[PBEffects::Swamp] > 1
       end
     end

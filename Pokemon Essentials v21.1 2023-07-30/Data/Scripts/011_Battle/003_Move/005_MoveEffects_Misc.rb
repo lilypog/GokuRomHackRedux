@@ -474,6 +474,7 @@ class Battle::Move::SwapSideEffects < Battle::Move
       PBEffects::Spikes,
       PBEffects::Swamp,
       PBEffects::Tailwind,
+      PBEffects::JaxWind,
       PBEffects::ToxicSpikes
     ]
     @boolean_effects = [

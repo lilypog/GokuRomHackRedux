@@ -488,7 +488,7 @@ Battle::AI::Handlers::MoveEffectScore.add("SwapSideEffects",
   proc { |score, move, user, ai, battle|
     if ai.trainer.medium_skill?
       good_effects = [:AuroraVeil, :LightScreen, :Mist, :Rainbow, :Reflect,
-                      :Safeguard, :SeaOfFire, :Swamp, :Tailwind].map! { |e| PBEffects.const_get(e) }
+                      :Safeguard, :SeaOfFire, :Swamp, :Tailwind, :JaxWind].map! { |e| PBEffects.const_get(e) }
       bad_effects = [:Spikes, :StealthRock, :StickyWeb, :ToxicSpikes].map! { |e| PBEffects.const_get(e) }
       bad_effects.each do |e|
         score += 10 if ![0, false, nil].include?(user.pbOwnSide.effects[e])

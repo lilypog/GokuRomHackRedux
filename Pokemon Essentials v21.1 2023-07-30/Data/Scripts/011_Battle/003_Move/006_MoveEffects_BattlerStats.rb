@@ -1936,6 +1936,25 @@ class Battle::Move::StartUserSideDoubleSpeed < Battle::Move
 end
 
 #===============================================================================
+# For 4 rounds, doubles the Speed of all battlers on the user's side. (JaxWind)
+#===============================================================================
+class Battle::Move::StartUserSideJaxWind < Battle::Move
+  def canSnatch?; return true; end
+
+  def pbMoveFailed?(user, targets)
+    if user.pbOwnSide.effects[PBEffects::JaxWind] > 0
+      @battle.pbDisplay(_INTL("But it failed!"))
+      return true
+    end
+    return false
+  end
+
+  def pbEffectGeneral(user)
+    user.pbOwnSide.effects[PBEffects::JaxWind] = 4
+  end
+end
+
+#===============================================================================
 # For 5 rounds, swaps all battlers' base Defense with base Special Defense.
 # (Wonder Room)
 #===============================================================================

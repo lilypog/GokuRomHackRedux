@@ -62,6 +62,7 @@ class Battle::ActiveSide
     @effects[PBEffects::StickyWeb]          = false
     @effects[PBEffects::Swamp]              = 0
     @effects[PBEffects::Tailwind]           = 0
+    @effects[PBEffects::JaxWind]            = 0
     @effects[PBEffects::ToxicSpikes]        = 0
     @effects[PBEffects::WideGuard]          = false
   end

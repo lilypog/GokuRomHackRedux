@@ -414,6 +414,9 @@ class Battle
     # Tailwind
     pbEORCountDownSideEffect(side, PBEffects::Tailwind,
                              _INTL("{1}'s Tailwind petered out!", @battlers[side].pbTeam))
+    # JaxWind
+    pbEORCountDownSideEffect(side, PBEffects::JaxWind,
+                             _INTL("Jax chills out.", @battlers[side].pbTeam))
     # Lucky Chant
     pbEORCountDownSideEffect(side, PBEffects::LuckyChant,
                              _INTL("{1}'s Lucky Chant wore off!", @battlers[side].pbTeam))

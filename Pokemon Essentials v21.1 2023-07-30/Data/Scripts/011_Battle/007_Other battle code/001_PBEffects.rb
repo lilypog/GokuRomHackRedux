@@ -158,6 +158,7 @@ module PBEffects
   Tailwind           = 819
   ToxicSpikes        = 820
   WideGuard          = 821
+  JaxWind            = 822
 
   #=============================================================================
   # These effects apply to the battle (i.e. both sides)

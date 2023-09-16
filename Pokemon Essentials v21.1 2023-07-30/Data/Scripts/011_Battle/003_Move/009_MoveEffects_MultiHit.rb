@@ -698,7 +698,7 @@ class Battle::Move::JaxCounterStrike < Battle::Move::TwoTurnMove
   def pbAdditionalEffect(user, target)
 	return if target.damageState.substitute
 	@battle.pbDisplay(_INTL("{1} is preparing to counter!", user.pbThis))
-    user.pbOwnSide.effects[PBEffects::Tailwind] = 2
+    user.pbOwnSide.effects[PBEffects::JaxWind] = 2
 	target.pbFlinch(user)
   end
 end

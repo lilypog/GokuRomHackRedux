@@ -260,6 +260,7 @@ class Battle::Battler
     end
     # Other effects
     speedMult *= 2 if pbOwnSide.effects[PBEffects::Tailwind] > 0
+    speedMult *= 2 if pbOwnSide.effects[PBEffects::JaxWind] > 0
     speedMult /= 2 if pbOwnSide.effects[PBEffects::Swamp] > 0
     # Paralysis
     if status == :PARALYSIS && !hasActiveAbility?(:QUICKFEET)
