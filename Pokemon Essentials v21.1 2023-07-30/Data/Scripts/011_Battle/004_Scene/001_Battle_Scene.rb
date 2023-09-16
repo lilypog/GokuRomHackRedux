@@ -185,7 +185,7 @@ class Battle::Scene
     pbWaitMessage
     pbShowWindow(MESSAGE_BOX)
     cw = @sprites["messageWindow"]
-    cw.setText(msg)
+    cw.text = msg + "\1"
     PBDebug.log_message(msg)
     yielded = false
     timer_start = System.uptime
@@ -196,17 +196,6 @@ class Battle::Scene
           yield if block_given?   # For playing SE as soon as the message is all shown
           yielded = true
         end
-        if brief
-          # NOTE: A brief message lingers on-screen while other things happen. A
-          #       regular message has to end before the game can continue.
-          @briefMessage = true
-          break
-        end
-        if System.uptime - timer_start >= MESSAGE_PAUSE_TIME   # Autoclose after 1 second
-          cw.text = ""
-          cw.visible = false
-          break
-        end
       end
       if Input.trigger?(Input::BACK) || Input.trigger?(Input::USE) || @abortable
         if cw.busy?
@@ -214,7 +203,7 @@ class Battle::Scene
           cw.skipAhead
         elsif !@abortable
           cw.text = ""
-          cw.visible = false
+          pbPlayDecisionSE
           break
         end
       end
