@@ -74,8 +74,8 @@ Resistances = BUG,STEEL,FIRE,GRASS,ICE,FAIRY
 Name = Water
 IconPosition = 11
 IsSpecialType = true
-Weaknesses = GRASS,ELECTRIC
-Resistances = STEEL,FIRE,WATER,ICE
+Weaknesses = GRASS,ELECTRIC,ICE
+Resistances = STEEL,FIRE,WATER
 #-------------------------------
 [GRASS]
 Name = Grass
