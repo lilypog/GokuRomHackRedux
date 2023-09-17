@@ -120,13 +120,13 @@ Pokemon = BLASTOISE,63
 [TOPLANER,Tak]
 Items = FULLRESTORE,FULLRESTORE,FULLRESTORE,FULLRESTORE
 LoseText = Ahh, I don't know why we went in one at a time...
-Pokemon = HEATRAN,76
+Pokemon = JAX,82
 	Item = LEFTOVERS
 	Moves = GMMIGHT,COUNTERSTRIKE,LEAPSTRIKE,EMPOWER
-	AbilityIndex = 2
+	AbilityIndex = 0
 	IV = 31,31,31,31,31,31
-	EV = 252,0,0,0,4,252
-	Nature = CALM
+	EV = 252,252,0,4,0,0
+	Nature = ADAMANT
 Pokemon = GYARADOS,78
 	Shiny = yes
 	Item = KINGSROCK

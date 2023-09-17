@@ -1559,7 +1559,7 @@ Name = Poliwag
 Types = WATER
 BaseStats = 40,50,40,90,40,40
 GenderRatio = Female50Percent
-GrowthRate = Parabolic
+GrowthRate = Medium
 BaseExp = 60
 EVs = SPEED,1
 CatchRate = 255
@@ -1579,7 +1579,7 @@ Habitat = WatersEdge
 Category = Tadpole
 Pokedex = It is possible to see this Pokémon's spiral innards right through its thin skin. However, the skin is also very flexible. Even sharp fangs bounce right off it.
 Generation = 1
-Evolutions = POLIWHIRL,Level,25
+Evolutions = POLIWHIRL,Level,14
 #-------------------------------
 [POLIWHIRL]
 Name = Poliwhirl
@@ -1606,7 +1606,7 @@ Category = Tadpole
 Pokedex = Its body surface is always wet and slick with an oily fluid. Because of this greasy covering, it can easily slip and slide out of the clutches of any enemy in battle.
 Generation = 1
 WildItemUncommon = KINGSROCK
-Evolutions = POLIWRATH,Item,WATERSTONE,POLITOED,TradeItem,KINGSROCK
+Evolutions = POLIWRATH,Item,WATERSTONE,POLITOED,Level,36
 #-------------------------------
 [POLIWRATH]
 Name = Poliwrath
@@ -4896,8 +4896,7 @@ BaseExp = 250
 EVs = SPECIAL_DEFENSE,3
 CatchRate = 45
 Happiness = 50
-Abilities = WATERABSORB,DAMP
-HiddenAbilities = DRIZZLE
+Abilities = DRIZZLE
 Moves = 0,BOUNCE,1,SWAGGER,1,HYPERVOICE,1,PERISHSONG,1,BUBBLEBEAM,1,RAINDANCE,1,BODYSLAM,1,EARTHPOWER,1,HYDROPUMP,1,BELLYDRUM,1,DOUBLEEDGE,1,WATERGUN,1,HYPNOSIS,1,POUND,1,MUDSHOT
 TutorMoves = ATTRACT,BLIZZARD,BRICKBREAK,BULLDOZE,DIG,DOUBLETEAM,EARTHQUAKE,ENDURE,FACADE,FLING,FOCUSBLAST,FOCUSPUNCH,GIGAIMPACT,HAIL,HYPERBEAM,ICEBEAM,PAYBACK,PROTECT,PSYCHIC,RAINDANCE,REST,ROCKSMASH,SCALD,SLEEPTALK,STRENGTH,SUBSTITUTE,SURF,SWAGGER,THIEF,WATERFALL,WATERPULSE
 EggGroups = Water1
@@ -6473,7 +6472,7 @@ Name = Larvitar
 Types = ROCK,GROUND
 BaseStats = 50,64,50,41,45,50
 GenderRatio = Female50Percent
-GrowthRate = Slow
+GrowthRate = Medium
 BaseExp = 60
 EVs = ATTACK,1
 CatchRate = 45
@@ -6493,7 +6492,7 @@ Habitat = Mountain
 Category = Rock Skin
 Pokedex = A Larvitar is born deep under the ground. It must eat its way through the soil above and reach the surface for it to see its parents' faces.
 Generation = 2
-Evolutions = PUPITAR,Level,30
+Evolutions = PUPITAR,Level,16
 #-------------------------------
 [PUPITAR]
 Name = Pupitar
@@ -6518,7 +6517,7 @@ Habitat = Mountain
 Category = Hard Shell
 Pokedex = A Pupitar creates a gas inside its body that it ejects under compression to propel itself like a jet. Its body can withstand a collision with solid steel.
 Generation = 2
-Evolutions = TYRANITAR,Level,55
+Evolutions = TYRANITAR,Level,40
 #-------------------------------
 [TYRANITAR]
 Name = Tyranitar
@@ -6531,7 +6530,6 @@ EVs = ATTACK,3
 CatchRate = 45
 Happiness = 35
 Abilities = SANDSTREAM
-HiddenAbilities = UNNERVE
 Moves = 1,IRONDEFENSE,1,THUNDERFANG,1,ICEFANG,1,FIREFANG,1,TACKLE,1,LEER,1,ROCKTHROW,1,PAYBACK,1,DARKPULSE,9,BITE,12,SCARYFACE,15,ROCKSLIDE,18,STOMPINGTANTRUM,21,SCREECH,24,SMACKDOWN,27,CRUNCH,33,EARTHQUAKE,37,STONEEDGE,42,THRASH,47,SANDSTORM,52,HYPERBEAM,59,GIGAIMPACT
 TutorMoves = AERIALACE,AVALANCHE,BLIZZARD,BODYPRESS,BODYSLAM,BRICKBREAK,BULLDOZE,CRUNCH,DARKPULSE,DIG,DRAGONCLAW,DRAGONDANCE,DRAGONPULSE,DRAGONTAIL,EARTHPOWER,EARTHQUAKE,ENDURE,FACADE,FIREBLAST,FIREFANG,FIREPUNCH,FLAMETHROWER,FLING,FOCUSBLAST,FOULPLAY,GIGAIMPACT,HEAVYSLAM,HELPINGHAND,HYDROPUMP,HYPERBEAM,ICEBEAM,ICEFANG,ICEPUNCH,ICYWIND,IRONDEFENSE,IRONHEAD,LOWKICK,MUDSHOT,MUDSLAP,OUTRAGE,POWERGEM,PROTECT,RAINDANCE,REST,ROCKBLAST,ROCKSLIDE,ROCKTOMB,SANDSTORM,SCARYFACE,SHADOWCLAW,SLEEPTALK,SNARL,STEALTHROCK,STOMPINGTANTRUM,STONEEDGE,SUBSTITUTE,SUNNYDAY,SURF,TAKEDOWN,TAUNT,THUNDER,THUNDERBOLT,THUNDERFANG,THUNDERPUNCH,THUNDERWAVE,TERABLAST
 EggGroups = Monster
@@ -15318,7 +15316,7 @@ Name = Vanillite
 Types = ICE
 BaseStats = 36,50,50,44,65,60
 GenderRatio = Female50Percent
-GrowthRate = Slow
+GrowthRate = Medium
 BaseExp = 61
 EVs = SPECIAL_ATTACK,1
 CatchRate = 255
@@ -15339,7 +15337,7 @@ Category = Fresh Snow
 Pokedex = This Pokémon formed from icicles bathed in energy from the morning sun. It sleeps buried in snow.
 Generation = 5
 WildItemUncommon = NEVERMELTICE
-Evolutions = VANILLISH,Level,35
+Evolutions = VANILLISH,Level,14
 #-------------------------------
 [VANILLISH]
 Name = Vanillish
@@ -15366,7 +15364,7 @@ Category = Icy Snow
 Pokedex = It conceals itself from enemy eyes by creating many small ice particles and hiding among them.
 Generation = 5
 WildItemUncommon = NEVERMELTICE
-Evolutions = VANILLUXE,Level,47
+Evolutions = VANILLUXE,Level,34
 #-------------------------------
 [VANILLUXE]
 Name = Vanilluxe
@@ -15378,8 +15376,7 @@ BaseExp = 268
 EVs = SPECIAL_ATTACK,3
 CatchRate = 45
 Happiness = 50
-Abilities = ICEBODY,SNOWWARNING
-HiddenAbilities = WEAKARMOR
+Abilities = SNOWWARNING
 Moves = 1,WEATHERBALL,1,ICICLECRASH,1,FREEZEDRY,1,ASTONISH,1,HARDEN,1,TAUNT,1,MIST,12,ICYWIND,16,AVALANCHE,20,HAIL,24,ICICLESPEAR,28,UPROAR,32,ACIDARMOR,38,MIRRORCOAT,44,ICEBEAM,52,BLIZZARD,60,SHEERCOLD
 TutorMoves = ALLYSWITCH,ATTRACT,AVALANCHE,BEATUP,BLIZZARD,ENDURE,FACADE,FLASHCANNON,GIGAIMPACT,HAIL,HYPERBEAM,HYPERVOICE,ICEBEAM,ICICLESPEAR,ICYWIND,IMPRISON,IRONDEFENSE,LIGHTSCREEN,PROTECT,RAINDANCE,REST,ROUND,SELFDESTRUCT,SLEEPTALK,SNORE,SUBSTITUTE,TAUNT,UPROAR,WEATHERBALL
 EggGroups = Mineral
@@ -26532,3 +26529,28 @@ Category = Paradox
 Pokedex = Ecology under analysis.
 Generation = 9
 Flags = Paradox
+#-------------------------------
+[JAX]
+Name = Jax
+Types = FIGHTING
+BaseStats = 85,110,80,80,100,80
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 61
+EVs = ATTACK,1
+CatchRate = 255
+Happiness = 50
+Abilities = RELENTLESS
+Moves = 1,ASTONISH,1,HARDEN,4,TAUNT,8,MIST,12,ICYWIND,16,AVALANCHE,20,HAIL,24,ICICLESPEAR,28,UPROAR,32,ACIDARMOR,36,MIRRORCOAT,40,ICEBEAM,44,BLIZZARD,48,SHEERCOLD
+TutorMoves = ALLYSWITCH,ATTRACT,AVALANCHE,BLIZZARD,ENDURE,FACADE,FLASHCANNON,HAIL,HYPERVOICE,ICEBEAM,ICICLESPEAR,ICYWIND,IMPRISON,IRONDEFENSE,LIGHTSCREEN,PROTECT,RAINDANCE,REST,ROUND,SELFDESTRUCT,SLEEPTALK,SNORE,SUBSTITUTE,TAUNT,UPROAR
+EggMoves = AURORAVEIL,AUTOTOMIZE,EXPLOSION,ICESHARD,ICICLECRASH,MAGNETRISE
+EggGroups = Mineral
+HatchSteps = 5120
+Height = 1.88
+Weight = 118
+Color = White
+Shape = HeadBase
+Habitat = Cave
+Category = Champ
+Pokedex = Runeterra's greatest weapons master, Jax is the only survivor of the Kohari—champions sworn to the defense of Icathia.
+Generation = 5
