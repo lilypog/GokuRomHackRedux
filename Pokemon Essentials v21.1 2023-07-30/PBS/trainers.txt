@@ -163,4 +163,28 @@ Pokemon = LATIOS,80
 	IV = 31,2,31,30,31,30	
 	EV = 4,0,0,252,252,0
 	Nature = TIMID
-	
+#-------------------------------	
+[LEADER_Philippe,Philippe]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = Fu***** Ni****!
+Pokemon = MANKEY,12
+	Item = LEFTOVERS
+	Moves = FOCUSENERGY,LOWKICK,BULKUP,ACROBATICS
+	AbilityIndex = 0
+	IV = 31,31,31,31,31,31
+	EV = 252,252,0,4,0,0
+	Nature = ADAMANT
+Pokemon = MANKEY,12
+	Item = LEFTOVERS
+	Moves = SCREECH,SWAGGER,FURYSWIPES,LOWSWEEP
+	AbilityIndex = 0
+	IV = 31,31,31,31,31,31
+	EV = 252,252,0,4,0,0
+	Nature = ADAMANT
+Pokemon = CROAGUNK,14
+	Item = LEFTOVERS
+	Moves = TOXIC,SWAGGER,DYNAMICPUNCH,POISONJAB
+	AbilityIndex = 0
+	IV = 31,31,31,31,31,31
+	EV = 252,252,0,4,0,0
+	Nature = ADAMANT	
