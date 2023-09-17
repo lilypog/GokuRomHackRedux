@@ -63,7 +63,6 @@ module Battle::AbilityEffects
   OnIntimidated                    = AbilityHandlerHash.new   # Rattled (Gen 8)
   # Running from battle
   CertainEscapeFromBattle          = AbilityHandlerHash.new   # Run Away
-  StrongThirdHit                   = AbilityHandlerHash.new   # Jax Passiv
 
   #=============================================================================
 
