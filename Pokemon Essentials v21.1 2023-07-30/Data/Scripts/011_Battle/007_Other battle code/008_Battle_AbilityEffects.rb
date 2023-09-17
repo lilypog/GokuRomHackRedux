@@ -1201,6 +1201,16 @@ Battle::AbilityEffects::DamageCalcFromUser.add(:AERILATE,
   }
 )
 
+Battle::AbilityEffects::DamageCalcFromUser.add(:RELENTLESS,
+  proc { |ability, user, target, move, mults, power, type, battler, battle|
+      PBDebug.log(user.effects[PBEffects::JaxPassive].to_s)
+      if (user.effects[PBEffects::JaxPassive] % 3) == 0 && (user.effects[PBEffects::JaxPassive] != 0)
+        mults[:attack_multiplier] *= 2
+        PBDebug.log("[Ability triggered]")
+      end
+  }
+)
+
 Battle::AbilityEffects::DamageCalcFromUser.copy(:AERILATE, :GALVANIZE, :NORMALIZE, :PIXILATE, :REFRIGERATE)
 
 Battle::AbilityEffects::DamageCalcFromUser.add(:ANALYTIC,
@@ -3208,11 +3218,4 @@ Battle::AbilityEffects::CertainEscapeFromBattle.add(:RUNAWAY,
   }
 )
 
-Battle::AbilityEffects::StrongThirdHit.add(:RELENTLESS,
-  proc { |ability, battler, battle|
-      if (battler.effects[PBEffects::JaxPassive] % 3) == 0
-        mults[:attack_multiplier] *= 2
-        battle.pbDisplay(_INTL("{1} hit extra hard!", user.pbThis))
-      end
-  }
-)
+
