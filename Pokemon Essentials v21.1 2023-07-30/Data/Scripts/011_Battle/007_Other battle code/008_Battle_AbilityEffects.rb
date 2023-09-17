@@ -1483,11 +1483,10 @@ Battle::AbilityEffects::DamageCalcFromUser.add(:RELENTLESS,
   if (user.effects[PBEffects::JaxPassive] != false)    
     PBDebug.log(user.effects[PBEffects::JaxPassive].to_s)
         if (user.effects[PBEffects::JaxPassive] % 3) == 0 && (user.effects[PBEffects::JaxPassive] != 0) && (user.effects[PBEffects::JaxPassive] != false)
-          
-          end
           mults[:attack_multiplier] *= 2
           PBDebug.log("[Ability triggered]")
         end
+  end
       }
 )
 
