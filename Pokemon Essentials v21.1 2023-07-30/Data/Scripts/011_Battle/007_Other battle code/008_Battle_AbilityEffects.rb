@@ -63,6 +63,7 @@ module Battle::AbilityEffects
   OnIntimidated                    = AbilityHandlerHash.new   # Rattled (Gen 8)
   # Running from battle
   CertainEscapeFromBattle          = AbilityHandlerHash.new   # Run Away
+  StrongThirdHit                   = AbilityHandlerHash.new   # Jax Passiv
 
   #=============================================================================
 
@@ -1200,15 +1201,15 @@ Battle::AbilityEffects::DamageCalcFromUser.add(:AERILATE,
   }
 )
 
-Battle::AbilityEffects::DamageCalcFromUser.add(:RELENTLESS,
-  proc { |ability, user, target, move, mults, power, type, battler, battle|
-      PBDebug.log(user.effects[PBEffects::JaxPassive].to_s)
-      if (user.effects[PBEffects::JaxPassive] % 3) == 0 && (user.effects[PBEffects::JaxPassive] != 0)
-        mults[:attack_multiplier] *= 2
-        PBDebug.log("[Ability triggered]")
-      end
-  }
-)
+#Battle::AbilityEffects::DamageCalcFromUser.add(:RELENTLESS,
+#  proc { |ability, user, target, move, mults, power, type, battler, battle|
+#      PBDebug.log(user.effects[PBEffects::JaxPassive].to_s)
+#      if (user.effects[PBEffects::JaxPassive] % 3) == 0 && (user.effects[PBEffects::JaxPassive] != 0)
+#        mults[:attack_multiplier] *= 2
+#        PBDebug.log("[Ability triggered]")
+#      end
+#  }
+#)
 
 Battle::AbilityEffects::DamageCalcFromUser.copy(:AERILATE, :GALVANIZE, :NORMALIZE, :PIXILATE, :REFRIGERATE)
 
@@ -1475,6 +1476,19 @@ Battle::AbilityEffects::DamageCalcFromUser.add(:WATERBUBBLE,
   proc { |ability, user, target, move, mults, power, type|
     mults[:attack_multiplier] *= 2 if type == :WATER
   }
+)
+
+Battle::AbilityEffects::DamageCalcFromUser.add(:RELENTLESS,
+  proc { |ability, user, target, move, mults, power, type, battler, battle|
+  if (user.effects[PBEffects::JaxPassive] != false)    
+    PBDebug.log(user.effects[PBEffects::JaxPassive].to_s)
+        if (user.effects[PBEffects::JaxPassive] % 3) == 0 && (user.effects[PBEffects::JaxPassive] != 0) && (user.effects[PBEffects::JaxPassive] != false)
+          
+          end
+          mults[:attack_multiplier] *= 2
+          PBDebug.log("[Ability triggered]")
+        end
+      }
 )
 
 #===============================================================================
