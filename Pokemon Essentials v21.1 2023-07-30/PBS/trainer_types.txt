@@ -316,48 +316,6 @@ BaseMoney = 100
 BattleBGM = Battle Gym Leader
 VictoryBGM = Battle victory leader
 #-------------------------------
-[LEADER_Philippe]
-Name = Gym Leader
-Gender = Male
-BaseMoney = 100
-BattleBGM = Battle Gym Leader
-VictoryBGM = Battle victory leader
-#-------------------------------
-[LEADER_Trevor]
-Name = Gym Leader
-Gender = Male
-BaseMoney = 100
-BattleBGM = Battle Gym Leader
-VictoryBGM = Battle victory leader
-#-------------------------------
-[LEADER_Naomi]
-Name = Gym Leader
-Gender = Female
-BaseMoney = 100
-BattleBGM = Battle Gym Leader
-VictoryBGM = Battle victory leader
-#-------------------------------
-[LEADER_Maokai]
-Name = Gym Leader
-Gender = Male
-BaseMoney = 100
-BattleBGM = Battle Gym Leader
-VictoryBGM = Battle victory leader
-#-------------------------------
-[LEADER_Kass]
-Name = Gym Leader
-Gender = Female
-BaseMoney = 100
-BattleBGM = Battle Gym Leader
-VictoryBGM = Battle victory leader
-#-------------------------------
-[LEADER_Kirry]
-Name = Gym Leader
-Gender = Female
-BaseMoney = 100
-BattleBGM = Battle Gym Leader
-VictoryBGM = Battle victory leader
-#-------------------------------
 [LEADER_Misty]
 Name = Gym Leader
 Gender = Female
@@ -467,3 +425,44 @@ BaseMoney = 10
 Name = Support
 Gender = Female
 BaseMoney = 10
+[LEADER_Philippe]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle Gym Leader
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Trevor]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle Gym Leader
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Naomi]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = Battle Gym Leader
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Maokai]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle Gym Leader
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Kass]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = Battle Gym Leader
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Kirry]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = Battle Gym Leader
+VictoryBGM = Battle victory leader
