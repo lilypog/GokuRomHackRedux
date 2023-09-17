@@ -124,7 +124,7 @@ module PBEffects
   Midhp			  	  = 118
   Lowhp			      = 119
   BossProtect		  = 120	 #boss battle
-
+  JaxPassive      = 121
   #=============================================================================
   # These effects apply to a battler position
   #=============================================================================
