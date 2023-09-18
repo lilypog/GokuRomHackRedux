@@ -5729,7 +5729,7 @@ Evolutions = URSALUNA,ItemNight,PEATBLOCK
 [SLUGMA]
 Name = Slugma
 Types = FIRE
-BaseStats = 40,40,40,20,70,40
+BaseStats = 80,40,80,35,110,100
 GenderRatio = Female50Percent
 GrowthRate = Medium
 BaseExp = 50
@@ -26534,7 +26534,7 @@ Flags = Paradox
 Name = Jax
 Types = FIGHTING
 BaseStats = 85,110,80,80,100,80
-GenderRatio = Female50Percent
+GenderRatio = AlwaysMale
 GrowthRate = Medium
 BaseExp = 61
 EVs = ATTACK,1

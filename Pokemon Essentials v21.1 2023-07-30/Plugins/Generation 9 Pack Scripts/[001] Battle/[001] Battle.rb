@@ -221,18 +221,18 @@ class Battle::Move
   # -Aliased to add Covert Cloak effect to block additional effects.
   # -Moves that may cause Frostbite have an increased chance to do so in Hail/Snow.
   #-----------------------------------------------------------------------------
-  alias paldea_pbAdditionalEffectChance pbAdditionalEffectChance
-  def pbAdditionalEffectChance(user, target, effectChance = 0)
-    return 0 if target.hasActiveItem?(:COVERTCLOAK)
-    ret = paldea_pbAdditionalEffectChance(user, target, effectChance)
-    return ret if [0, 100].include?(ret)
-    if @battle.pbWeather == :Hail &&
-       (@function.include?("FrostbiteTarget") ||
-       (Settings::FREEZE_EFFECTS_CAUSE_FROSTBITE && @function.include?("FreezeTarget")))
-      ret *= 2
-    end
-    return [ret, 100].min
-  end
+  # alias paldea_pbAdditionalEffectChance pbAdditionalEffectChance
+  # def pbAdditionalEffectChance(user, target, effectChance = 0)
+  #   return 0 if target.hasActiveItem?(:COVERTCLOAK)
+  #   ret = paldea_pbAdditionalEffectChance(user, target, effectChance)
+  #   return ret if [0, 100].include?(ret)
+  #   if @battle.pbWeather == :Hail &&
+  #      (@function.include?("FrostbiteTarget") ||
+  #      (Settings::FREEZE_EFFECTS_CAUSE_FROSTBITE && @function.include?("FreezeTarget")))
+  #     ret *= 2
+  #   end
+  #   return [ret, 100].min
+  # end
 
   alias paldea_pbFlinchChance pbFlinchChance
   def pbFlinchChance(user, target)
