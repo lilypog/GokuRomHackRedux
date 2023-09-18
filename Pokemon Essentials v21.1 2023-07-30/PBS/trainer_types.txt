@@ -427,6 +427,8 @@ BaseMoney = 10
 Name = Support
 Gender = Female
 BaseMoney = 10
+BattleBGM = LilyBGM
+#-------------------------------
 [LEADER_Philippe]
 Name = Gym Leader
 Gender = Male
