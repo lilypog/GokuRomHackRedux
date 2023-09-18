@@ -1410,3 +1410,42 @@ Section000:45:in `<main>'
 "Blastoise fainted!"
 
 [End of round 11]
+
+================================================================
+
+[Started battle] Single trainer battle (1 trainer(s) vs. 1 trainer(s))
+"You are challenged by Gym Leader Philippe!"
+"Gym Leader Philippe sent out Mankey!"
+"Go! Blastoise!"
+[Round order] Blastoise (0), the opposing Mankey (1)
+
+***Round 1***
+
+[AI] Mankey (1) is considering using Focus Energy...
+     + 25: function code modifier (generic)
+[AI] Mankey (1) is considering using Low Kick against Blastoise (0)...
+[AI] Mankey (1) is considering using Bulk Up...
+     +  6: raising the user's Attack by 1
+     +  5: raising the user's Defense by 1
+     + 33: function code modifier (generic)
+[AI] Mankey (1) is considering using Acrobatics against Blastoise (0)...
+[AI] Move choices for Mankey (1):
+   *   0.0% to use Focus Energy: score 125
+   *   0.0% to use Low Kick (target 0): score 100
+   * 100.0% to use Bulk Up: score 133
+   *   0.0% to use Acrobatics (target 0): score 100
+   => will use Bulk Up
+
+[Round order] Blastoise (0), the opposing Mankey (1)
+
+[Use move] Blastoise (0) used Metal Claw
+"Blastoise used Metal Claw!"
+[HP change] The opposing Mankey lost 35 HP (35=>0)
+"The opposing Mankey fainted!"
+
+[End of round 1]
+"Gym Leader Philippe is about to send in Mankey. Will you switch your Pokémon?"
+"Gym Leader Philippe sent out Mankey!"
+
+***Round 2***
+
