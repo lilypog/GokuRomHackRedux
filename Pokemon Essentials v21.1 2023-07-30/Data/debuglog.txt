@@ -1,0 +1,1051 @@
+
+================================================================
+
+[Started battle] Single trainer battle (1 trainer(s) vs. 1 trainer(s))
+"You are challenged by Support Lily!"
+"Support Lily sent out Glimmora!"
+"Go! Blastoise!"
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+***Round 1***
+
+[AI] Glimmora (1) is considering using Stealth Rock...
+     + 10: function code modifier (generic)
+[AI] Glimmora (1) is considering using Spore against Blastoise (0)...
+     + 15: function code modifier (against target)
+[AI] Glimmora (1) is considering using Power Gem against Blastoise (0)...
+     +  6: damaging move (predicted damage 74 = 25% of target's HP)
+[AI] Glimmora (1) is considering using Spikes...
+     + 10: function code modifier (generic)
+[AI] Move choices for Glimmora (1):
+   *  24.8% to use Stealth Rock: score 110
+   *  29.1% to use Spore (target 0): score 115
+   *  21.4% to use Power Gem (target 0): score 106
+   *  24.8% to use Spikes: score 110
+   => will use Stealth Rock
+
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+[Use move] The opposing Glimmora (1) used Stealth Rock
+"The opposing Glimmora used Stealth Rock!"
+
+================================================================
+
+[Started battle] Single trainer battle (1 trainer(s) vs. 1 trainer(s))
+"You are challenged by Support Lily!"
+"Support Lily sent out Glimmora!"
+"Go! Blastoise!"
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+***Round 1***
+
+[AI] Glimmora (1) is considering using Stealth Rock...
+     + 10: function code modifier (generic)
+[AI] Glimmora (1) is considering using Mortal Spin...
+     +  1: damaging move (predicted damage 17 = 5% of target's HP)
+
+**Exception: undefined local variable or method `target' for main:Object
+[Generation 9 Pack] [005] New AI_MoveEffects.rb:682:in `block in <main>'
+005_Event_Handlers.rb:139:in `trigger'
+001_Battle_AI.rb:106:in `apply_move_effect_score'
+005_AI_ChooseMove.rb:276:in `pbGetMoveScore'
+005_AI_ChooseMove.rb:81:in `block (2 levels) in pbGetMoveScores'
+001_PBDebug.rb:6:in `logonerr'
+005_AI_ChooseMove.rb:81:in `block in pbGetMoveScores'
+001_Battle_Battler.rb:462:in `block in eachMoveWithIndex'
+001_Battle_Battler.rb:462:in `each'
+001_Battle_Battler.rb:462:in `each_with_index'
+001_Battle_Battler.rb:462:in `eachMoveWithIndex'
+005_AI_ChooseMove.rb:25:in `pbGetMoveScores'
+001_Battle_AI.rb:67:in `pbDefaultChooseEnemyCommand'
+009_Battle_CommandPhase.rb:215:in `block in pbCommandPhaseLoop'
+009_Battle_CommandPhase.rb:203:in `loop'
+009_Battle_CommandPhase.rb:203:in `pbCommandPhaseLoop'
+009_Battle_CommandPhase.rb:194:in `pbCommandPhase'
+[Mid Battle Dialogue] MBD.rb:172:in `block (2 levels) in pbBattleLoop'
+001_PBDebug.rb:6:in `logonerr'
+[Mid Battle Dialogue] MBD.rb:172:in `block in pbBattleLoop'
+[Mid Battle Dialogue] MBD.rb:158:in `loop'
+[Mid Battle Dialogue] MBD.rb:158:in `pbBattleLoop'
+002_Battle_StartAndEnd.rb:316:in `pbStartBattleCore'
+002_Battle_StartAndEnd.rb:271:in `pbStartBattle'
+001_Overworld_BattleStarting.rb:521:in `block (2 levels) in start_core'
+002_Overworld_BattleIntroAnim.rb:55:in `pbSceneStandby'
+001_Overworld_BattleStarting.rb:521:in `block in start_core'
+002_Overworld_BattleIntroAnim.rb:126:in `pbBattleAnimation'
+001_Overworld_BattleStarting.rb:520:in `start_core'
+001_Overworld_BattleStarting.rb:486:in `start'
+(eval):1:in `execute_script'
+003_Interpreter.rb:138:in `eval'
+003_Interpreter.rb:138:in `execute_script'
+004_Interpreter_Commands.rb:434:in `command_111'
+004_Interpreter_Commands.rb:29:in `execute_command'
+003_Interpreter.rb:130:in `block in update'
+003_Interpreter.rb:86:in `loop'
+003_Interpreter.rb:86:in `update'
+002_Scene_Map.rb:167:in `block in update'
+002_Scene_Map.rb:166:in `loop'
+002_Scene_Map.rb:166:in `update'
+002_Scene_Map.rb:238:in `block in main'
+002_Scene_Map.rb:235:in `loop'
+002_Scene_Map.rb:235:in `main'
+999_Main.rb:35:in `mainFunctionDebug'
+999_Main.rb:18:in `block in mainFunction'
+003_Errors.rb:80:in `pbCriticalCode'
+999_Main.rb:18:in `mainFunction'
+999_Main.rb:45:in `block (2 levels) in load_scripts_from_folder'
+999_Main.rb:44:in `loop'
+999_Main.rb:44:in `block in load_scripts_from_folder'
+Section000:31:in `eval'
+Section000:31:in `block in load_scripts_from_folder'
+Section000:28:in `each'
+Section000:28:in `load_scripts_from_folder'
+Section000:41:in `block in load_scripts_from_folder'
+Section000:40:in `each'
+Section000:40:in `load_scripts_from_folder'
+Section000:45:in `<main>'
+-e:in `eval'
+
+
+[AI] Glimmora (1) is considering using Power Gem against Blastoise (0)...
+     +  6: damaging move (predicted damage 74 = 25% of target's HP)
+[AI] Glimmora (1) is considering using Spikes...
+     + 10: function code modifier (generic)
+[AI] Move choices for Glimmora (1):
+   *  28.1% to use Stealth Rock: score 110
+   *  19.3% to use Mortal Spin: score 100
+   *  24.6% to use Power Gem (target 0): score 106
+   *  28.1% to use Spikes: score 110
+   => will use Power Gem (target 0)
+
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+[Use move] The opposing Glimmora (1) used Power Gem
+"The opposing Glimmora used Power Gem!"
+
+================================================================
+
+[Started battle] Single trainer battle (1 trainer(s) vs. 1 trainer(s))
+"You are challenged by Support Lily!"
+"Support Lily sent out Glimmora!"
+"Go! Blastoise!"
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+***Round 1***
+
+[AI] Glimmora (1) is considering using Stealth Rock...
+     + 10: function code modifier (generic)
+[AI] Glimmora (1) is considering using Mortal Spin...
+     +  1: damaging move (predicted damage 17 = 5% of target's HP)
+
+**Exception: undefined method `pbAbleNonActiveCount' for nil:NilClass
+[Generation 9 Pack] [005] New AI_MoveEffects.rb:675:in `block in <main>'
+005_Event_Handlers.rb:139:in `trigger'
+001_Battle_AI.rb:106:in `apply_move_effect_score'
+005_AI_ChooseMove.rb:276:in `pbGetMoveScore'
+005_AI_ChooseMove.rb:81:in `block (2 levels) in pbGetMoveScores'
+001_PBDebug.rb:6:in `logonerr'
+005_AI_ChooseMove.rb:81:in `block in pbGetMoveScores'
+001_Battle_Battler.rb:462:in `block in eachMoveWithIndex'
+001_Battle_Battler.rb:462:in `each'
+001_Battle_Battler.rb:462:in `each_with_index'
+001_Battle_Battler.rb:462:in `eachMoveWithIndex'
+005_AI_ChooseMove.rb:25:in `pbGetMoveScores'
+001_Battle_AI.rb:67:in `pbDefaultChooseEnemyCommand'
+009_Battle_CommandPhase.rb:215:in `block in pbCommandPhaseLoop'
+009_Battle_CommandPhase.rb:203:in `loop'
+009_Battle_CommandPhase.rb:203:in `pbCommandPhaseLoop'
+009_Battle_CommandPhase.rb:194:in `pbCommandPhase'
+[Mid Battle Dialogue] MBD.rb:172:in `block (2 levels) in pbBattleLoop'
+001_PBDebug.rb:6:in `logonerr'
+[Mid Battle Dialogue] MBD.rb:172:in `block in pbBattleLoop'
+[Mid Battle Dialogue] MBD.rb:158:in `loop'
+[Mid Battle Dialogue] MBD.rb:158:in `pbBattleLoop'
+002_Battle_StartAndEnd.rb:316:in `pbStartBattleCore'
+002_Battle_StartAndEnd.rb:271:in `pbStartBattle'
+001_Overworld_BattleStarting.rb:521:in `block (2 levels) in start_core'
+002_Overworld_BattleIntroAnim.rb:55:in `pbSceneStandby'
+001_Overworld_BattleStarting.rb:521:in `block in start_core'
+002_Overworld_BattleIntroAnim.rb:126:in `pbBattleAnimation'
+001_Overworld_BattleStarting.rb:520:in `start_core'
+001_Overworld_BattleStarting.rb:486:in `start'
+(eval):1:in `execute_script'
+003_Interpreter.rb:138:in `eval'
+003_Interpreter.rb:138:in `execute_script'
+004_Interpreter_Commands.rb:434:in `command_111'
+004_Interpreter_Commands.rb:29:in `execute_command'
+003_Interpreter.rb:130:in `block in update'
+003_Interpreter.rb:86:in `loop'
+003_Interpreter.rb:86:in `update'
+002_Scene_Map.rb:167:in `block in update'
+002_Scene_Map.rb:166:in `loop'
+002_Scene_Map.rb:166:in `update'
+002_Scene_Map.rb:238:in `block in main'
+002_Scene_Map.rb:235:in `loop'
+002_Scene_Map.rb:235:in `main'
+999_Main.rb:35:in `mainFunctionDebug'
+999_Main.rb:18:in `block in mainFunction'
+003_Errors.rb:80:in `pbCriticalCode'
+999_Main.rb:18:in `mainFunction'
+999_Main.rb:45:in `block (2 levels) in load_scripts_from_folder'
+999_Main.rb:44:in `loop'
+999_Main.rb:44:in `block in load_scripts_from_folder'
+Section000:31:in `eval'
+Section000:31:in `block in load_scripts_from_folder'
+Section000:28:in `each'
+Section000:28:in `load_scripts_from_folder'
+Section000:41:in `block in load_scripts_from_folder'
+Section000:40:in `each'
+Section000:40:in `load_scripts_from_folder'
+Section000:45:in `<main>'
+-e:in `eval'
+
+
+[AI] Glimmora (1) is considering using Power Gem against Blastoise (0)...
+     +  6: damaging move (predicted damage 74 = 25% of target's HP)
+[AI] Glimmora (1) is considering using Spikes...
+     + 10: function code modifier (generic)
+[AI] Move choices for Glimmora (1):
+   *  28.1% to use Stealth Rock: score 110
+   *  19.3% to use Mortal Spin: score 100
+   *  24.6% to use Power Gem (target 0): score 106
+   *  28.1% to use Spikes: score 110
+   => will use Spikes
+
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+[Use move] The opposing Glimmora (1) used Spikes
+"The opposing Glimmora used Spikes!"
+
+================================================================
+
+[Started battle] Single trainer battle (1 trainer(s) vs. 1 trainer(s))
+"You are challenged by Support Lily!"
+"Support Lily sent out Glimmora!"
+"Go! Blastoise!"
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+***Round 1***
+
+[AI] Glimmora (1) is considering using Stealth Rock...
+     + 10: function code modifier (generic)
+[AI] Glimmora (1) is considering using Mortal Spin...
+     +  1: damaging move (predicted damage 17 = 5% of target's HP)
+
+**Exception: undefined method `pbAbleNonActiveCount' for nil:NilClass
+[Generation 9 Pack] [005] New AI_MoveEffects.rb:675:in `block in <main>'
+005_Event_Handlers.rb:139:in `trigger'
+001_Battle_AI.rb:106:in `apply_move_effect_score'
+005_AI_ChooseMove.rb:276:in `pbGetMoveScore'
+005_AI_ChooseMove.rb:81:in `block (2 levels) in pbGetMoveScores'
+001_PBDebug.rb:6:in `logonerr'
+005_AI_ChooseMove.rb:81:in `block in pbGetMoveScores'
+001_Battle_Battler.rb:462:in `block in eachMoveWithIndex'
+001_Battle_Battler.rb:462:in `each'
+001_Battle_Battler.rb:462:in `each_with_index'
+001_Battle_Battler.rb:462:in `eachMoveWithIndex'
+005_AI_ChooseMove.rb:25:in `pbGetMoveScores'
+001_Battle_AI.rb:67:in `pbDefaultChooseEnemyCommand'
+009_Battle_CommandPhase.rb:215:in `block in pbCommandPhaseLoop'
+009_Battle_CommandPhase.rb:203:in `loop'
+009_Battle_CommandPhase.rb:203:in `pbCommandPhaseLoop'
+009_Battle_CommandPhase.rb:194:in `pbCommandPhase'
+[Mid Battle Dialogue] MBD.rb:172:in `block (2 levels) in pbBattleLoop'
+001_PBDebug.rb:6:in `logonerr'
+[Mid Battle Dialogue] MBD.rb:172:in `block in pbBattleLoop'
+[Mid Battle Dialogue] MBD.rb:158:in `loop'
+[Mid Battle Dialogue] MBD.rb:158:in `pbBattleLoop'
+002_Battle_StartAndEnd.rb:316:in `pbStartBattleCore'
+002_Battle_StartAndEnd.rb:271:in `pbStartBattle'
+001_Overworld_BattleStarting.rb:521:in `block (2 levels) in start_core'
+002_Overworld_BattleIntroAnim.rb:55:in `pbSceneStandby'
+001_Overworld_BattleStarting.rb:521:in `block in start_core'
+002_Overworld_BattleIntroAnim.rb:126:in `pbBattleAnimation'
+001_Overworld_BattleStarting.rb:520:in `start_core'
+001_Overworld_BattleStarting.rb:486:in `start'
+(eval):1:in `execute_script'
+003_Interpreter.rb:138:in `eval'
+003_Interpreter.rb:138:in `execute_script'
+004_Interpreter_Commands.rb:434:in `command_111'
+004_Interpreter_Commands.rb:29:in `execute_command'
+003_Interpreter.rb:130:in `block in update'
+003_Interpreter.rb:86:in `loop'
+003_Interpreter.rb:86:in `update'
+002_Scene_Map.rb:167:in `block in update'
+002_Scene_Map.rb:166:in `loop'
+002_Scene_Map.rb:166:in `update'
+002_Scene_Map.rb:238:in `block in main'
+002_Scene_Map.rb:235:in `loop'
+002_Scene_Map.rb:235:in `main'
+999_Main.rb:35:in `mainFunctionDebug'
+999_Main.rb:18:in `block in mainFunction'
+003_Errors.rb:80:in `pbCriticalCode'
+999_Main.rb:18:in `mainFunction'
+999_Main.rb:45:in `block (2 levels) in load_scripts_from_folder'
+999_Main.rb:44:in `loop'
+999_Main.rb:44:in `block in load_scripts_from_folder'
+Section000:31:in `eval'
+Section000:31:in `block in load_scripts_from_folder'
+Section000:28:in `each'
+Section000:28:in `load_scripts_from_folder'
+Section000:41:in `block in load_scripts_from_folder'
+Section000:40:in `each'
+Section000:40:in `load_scripts_from_folder'
+Section000:45:in `<main>'
+-e:in `eval'
+
+
+
+================================================================
+
+[Started battle] Single trainer battle (1 trainer(s) vs. 1 trainer(s))
+"You are challenged by Support Lily!"
+"Support Lily sent out Glimmora!"
+"Go! Blastoise!"
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+***Round 1***
+
+[AI] Glimmora (1) is considering using Stealth Rock...
+     + 10: function code modifier (generic)
+[AI] Glimmora (1) is considering using Mortal Spin...
+     +  1: damaging move (predicted damage 17 = 5% of target's HP)
+[AI] Glimmora (1) is considering using Power Gem against Blastoise (0)...
+     +  6: damaging move (predicted damage 74 = 25% of target's HP)
+[AI] Glimmora (1) is considering using Spikes...
+     + 10: function code modifier (generic)
+[AI] Move choices for Glimmora (1):
+   *  27.8% to use Stealth Rock: score 110
+   *  20.0% to use Mortal Spin: score 101
+   *  24.3% to use Power Gem (target 0): score 106
+   *  27.8% to use Spikes: score 110
+   => will use Stealth Rock
+
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+[Use move] The opposing Glimmora (1) used Stealth Rock
+"The opposing Glimmora used Stealth Rock!"
+
+================================================================
+
+[Started battle] Single trainer battle (1 trainer(s) vs. 1 trainer(s))
+"You are challenged by Support Lily!"
+"Support Lily sent out Glimmora!"
+"Go! Blastoise!"
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+***Round 1***
+
+[AI] Glimmora (1) is considering using Stealth Rock...
+     + 10: function code modifier (generic)
+[AI] Glimmora (1) is considering using Tidy Up against Blastoise (0)...
+     raising the user's Attack isn't worthwhile
+     raising the user's Speed isn't worthwhile
+     - 40: function code modifier (generic)
+[AI] Glimmora (1) is considering using Power Gem against Blastoise (0)...
+     +  6: damaging move (predicted damage 74 = 25% of target's HP)
+[AI] Glimmora (1) is considering using Spikes...
+     + 10: function code modifier (generic)
+[AI] Move choices for Glimmora (1):
+   *  34.8% to use Stealth Rock: score 110
+   *   0.0% to use Tidy Up (target 0): score 60
+   *  30.4% to use Power Gem (target 0): score 106
+   *  34.8% to use Spikes: score 110
+   => will use Power Gem (target 0)
+
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+[Use move] The opposing Glimmora (1) used Power Gem
+"The opposing Glimmora used Power Gem!"
+
+================================================================
+
+[Started battle] Single trainer battle (1 trainer(s) vs. 1 trainer(s))
+"You are challenged by Support Lily!"
+"Support Lily sent out Glimmora!"
+"Go! Blastoise!"
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+***Round 1***
+
+[AI] Glimmora (1) is considering using Stealth Rock...
+     + 10: function code modifier (generic)
+[AI] Glimmora (1) is considering using Tidy Up against Blastoise (0)...
+[AI] Glimmora (1) is considering using Power Gem against Blastoise (0)...
+     +  6: damaging move (predicted damage 74 = 25% of target's HP)
+[AI] Glimmora (1) is considering using Spikes...
+     + 10: function code modifier (generic)
+[AI] Move choices for Glimmora (1):
+   *  28.1% to use Stealth Rock: score 110
+   *  19.3% to use Tidy Up (target 0): score 100
+   *  24.6% to use Power Gem (target 0): score 106
+   *  28.1% to use Spikes: score 110
+   => will use Spikes
+
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+[Use move] The opposing Glimmora (1) used Spikes
+"The opposing Glimmora used Spikes!"
+"Spikes were scattered all around your team's feet!"
+[Use move] Blastoise (0) used Metal Claw
+"Blastoise used Metal Claw!"
+[HP change] The opposing Glimmora lost 95 HP (287=>192)
+"It's super effective!"
+[Ability triggered] The opposing Glimmora's Toxic Debris
+"Poison spikes were scattered on the ground all around your team!"
+"The opposing Glimmora held up its Red Card against Blastoise!"
+[Item consumed] The opposing Glimmora consumed its held Red Card
+"Regigigas was dragged out!"
+[HP change] Regigigas lost 43 HP (349=>306)
+"Regigigas is hurt by the spikes!"
+"Regigigas was poisoned by the poison spikes!"
+[Ability triggered] Regigigas's Slow Start
+"Regigigas can't get it going!"
+
+[End of round 1]
+[HP change] Regigigas lost 43 HP (306=>263)
+"Regigigas was hurt by poison!"
+
+***Round 2***
+
+[AI] Glimmora (1) is considering using Stealth Rock...
+     + 10: function code modifier (generic)
+[AI] Glimmora (1) is considering using Tidy Up against Regigigas (0)...
+     - 30: function code modifier (generic)
+[AI] Glimmora (1) is considering using Power Gem against Regigigas (0)...
+     +  6: damaging move (predicted damage 65 = 24% of target's HP)
+[AI] Glimmora (1) is considering using Spikes...
+     +  7: function code modifier (generic)
+[AI] Move choices for Glimmora (1):
+   *  36.0% to use Stealth Rock: score 110
+   *   0.0% to use Tidy Up (target 0): score 70
+   *  31.5% to use Power Gem (target 0): score 106
+   *  32.6% to use Spikes: score 107
+   => will use Power Gem (target 0)
+
+[Round order] The opposing Glimmora (1), Regigigas (0)
+
+[Use move] The opposing Glimmora (1) used Power Gem
+"The opposing Glimmora used Power Gem!"
+[HP change] Regigigas lost 60 HP (263=>203)
+[Use move] Regigigas (0) used Spikes
+"Regigigas used Spikes!"
+"Spikes were scattered all around the opposing team's feet!"
+
+[End of round 2]
+[HP change] Regigigas lost 43 HP (203=>160)
+"Regigigas was hurt by poison!"
+
+***Round 3***
+
+[AI] Glimmora (1) is considering using Stealth Rock...
+     + 10: function code modifier (generic)
+[AI] Glimmora (1) is considering using Tidy Up against Regigigas (0)...
+     - 15: function code modifier (generic)
+[AI] Glimmora (1) is considering using Power Gem against Regigigas (0)...
+     + 10: damaging move (predicted damage 65 = 40% of target's HP)
+[AI] Glimmora (1) is considering using Spikes...
+     +  7: function code modifier (generic)
+[AI] Move choices for Glimmora (1):
+   *  32.0% to use Stealth Rock: score 110
+   *   7.0% to use Tidy Up (target 0): score 85
+   *  32.0% to use Power Gem (target 0): score 110
+   *  29.0% to use Spikes: score 107
+   => will use Stealth Rock
+
+[Round order] The opposing Glimmora (1), Regigigas (0)
+
+[Use move] The opposing Glimmora (1) used Stealth Rock
+"The opposing Glimmora used Stealth Rock!"
+"Pointed stones float in the air around your team!"
+[Use move] Regigigas (0) used Spikes
+"Regigigas used Spikes!"
+"Spikes were scattered all around the opposing team's feet!"
+
+[End of round 3]
+[HP change] Regigigas lost 43 HP (160=>117)
+"Regigigas was hurt by poison!"
+
+***Round 4***
+
+[AI] Glimmora (1) is considering using Stealth Rock...
+     - 80: move will fail
+[AI] Glimmora (1) is considering using Tidy Up against Regigigas (0)...
+     - 35: function code modifier (generic)
+[AI] Glimmora (1) is considering using Power Gem against Regigigas (0)...
+     +  4: damaging move (predicted damage 65 = 18% of target's HP)
+[AI] Glimmora (1) is considering using Spikes...
+     +  7: function code modifier (generic)
+[AI] Move choices for Glimmora (1):
+   *   0.0% to use Stealth Rock: score 20
+   *   0.0% to use Tidy Up (target 0): score 65
+   *  47.5% to use Power Gem (target 0): score 104
+   *  52.5% to use Spikes: score 107
+   => will use Spikes
+
+[Round order] The opposing Glimmora (1), Regigigas (0)
+
+[Use move] The opposing Glimmora (1) used Spikes
+"The opposing Glimmora used Spikes!"
+"Spikes were scattered all around your team's feet!"
+
+================================================================
+
+[Started battle] Single trainer battle (1 trainer(s) vs. 1 trainer(s))
+"You are challenged by Support Lily!"
+"Support Lily sent out Glimmora!"
+"Go! Blastoise!"
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+***Round 1***
+
+[AI] Glimmora (1) is considering using Stealth Rock...
+     + 10: function code modifier (generic)
+[AI] Glimmora (1) is considering using Mortal Spin...
+     +  1: damaging move (predicted damage 17 = 5% of target's HP)
+
+**Exception: undefined local variable or method `b' for main:Object
+[Generation 9 Pack] [005] New AI_MoveEffects.rb:682:in `block in <main>'
+005_Event_Handlers.rb:139:in `trigger'
+001_Battle_AI.rb:106:in `apply_move_effect_score'
+005_AI_ChooseMove.rb:276:in `pbGetMoveScore'
+005_AI_ChooseMove.rb:81:in `block (2 levels) in pbGetMoveScores'
+001_PBDebug.rb:6:in `logonerr'
+005_AI_ChooseMove.rb:81:in `block in pbGetMoveScores'
+001_Battle_Battler.rb:462:in `block in eachMoveWithIndex'
+001_Battle_Battler.rb:462:in `each'
+001_Battle_Battler.rb:462:in `each_with_index'
+001_Battle_Battler.rb:462:in `eachMoveWithIndex'
+005_AI_ChooseMove.rb:25:in `pbGetMoveScores'
+001_Battle_AI.rb:67:in `pbDefaultChooseEnemyCommand'
+009_Battle_CommandPhase.rb:215:in `block in pbCommandPhaseLoop'
+009_Battle_CommandPhase.rb:203:in `loop'
+009_Battle_CommandPhase.rb:203:in `pbCommandPhaseLoop'
+009_Battle_CommandPhase.rb:194:in `pbCommandPhase'
+[Mid Battle Dialogue] MBD.rb:172:in `block (2 levels) in pbBattleLoop'
+001_PBDebug.rb:6:in `logonerr'
+[Mid Battle Dialogue] MBD.rb:172:in `block in pbBattleLoop'
+[Mid Battle Dialogue] MBD.rb:158:in `loop'
+[Mid Battle Dialogue] MBD.rb:158:in `pbBattleLoop'
+002_Battle_StartAndEnd.rb:316:in `pbStartBattleCore'
+002_Battle_StartAndEnd.rb:271:in `pbStartBattle'
+001_Overworld_BattleStarting.rb:521:in `block (2 levels) in start_core'
+002_Overworld_BattleIntroAnim.rb:55:in `pbSceneStandby'
+001_Overworld_BattleStarting.rb:521:in `block in start_core'
+002_Overworld_BattleIntroAnim.rb:126:in `pbBattleAnimation'
+001_Overworld_BattleStarting.rb:520:in `start_core'
+001_Overworld_BattleStarting.rb:486:in `start'
+(eval):1:in `execute_script'
+003_Interpreter.rb:138:in `eval'
+003_Interpreter.rb:138:in `execute_script'
+004_Interpreter_Commands.rb:434:in `command_111'
+004_Interpreter_Commands.rb:29:in `execute_command'
+003_Interpreter.rb:130:in `block in update'
+003_Interpreter.rb:86:in `loop'
+003_Interpreter.rb:86:in `update'
+002_Scene_Map.rb:167:in `block in update'
+002_Scene_Map.rb:166:in `loop'
+002_Scene_Map.rb:166:in `update'
+002_Scene_Map.rb:238:in `block in main'
+002_Scene_Map.rb:235:in `loop'
+002_Scene_Map.rb:235:in `main'
+999_Main.rb:35:in `mainFunctionDebug'
+999_Main.rb:18:in `block in mainFunction'
+003_Errors.rb:80:in `pbCriticalCode'
+999_Main.rb:18:in `mainFunction'
+999_Main.rb:45:in `block (2 levels) in load_scripts_from_folder'
+999_Main.rb:44:in `loop'
+999_Main.rb:44:in `block in load_scripts_from_folder'
+Section000:31:in `eval'
+Section000:31:in `block in load_scripts_from_folder'
+Section000:28:in `each'
+Section000:28:in `load_scripts_from_folder'
+Section000:41:in `block in load_scripts_from_folder'
+Section000:40:in `each'
+Section000:40:in `load_scripts_from_folder'
+Section000:45:in `<main>'
+-e:in `eval'
+
+
+[AI] Glimmora (1) is considering using Power Gem against Blastoise (0)...
+     +  6: damaging move (predicted damage 74 = 25% of target's HP)
+[AI] Glimmora (1) is considering using Spikes...
+     + 10: function code modifier (generic)
+[AI] Move choices for Glimmora (1):
+   *  28.1% to use Stealth Rock: score 110
+   *  19.3% to use Mortal Spin: score 100
+   *  24.6% to use Power Gem (target 0): score 106
+   *  28.1% to use Spikes: score 110
+   => will use Power Gem (target 0)
+
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+[Use move] The opposing Glimmora (1) used Power Gem
+"The opposing Glimmora used Power Gem!"
+
+================================================================
+
+[Started battle] Single trainer battle (1 trainer(s) vs. 1 trainer(s))
+"You are challenged by Support Lily!"
+"Support Lily sent out Glimmora!"
+"Go! Blastoise!"
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+***Round 1***
+
+[AI] Glimmora (1) is considering using Stealth Rock...
+     + 10: function code modifier (generic)
+[AI] Glimmora (1) is considering using Mortal Spin...
+     +  1: damaging move (predicted damage 17 = 5% of target's HP)
+
+**Exception: undefined method `has_active_ability?' for nil:NilClass
+[Generation 9 Pack] [004] AI_MoveEffects.rb:58:in `block in <main>'
+005_Event_Handlers.rb:139:in `trigger'
+001_Battle_AI.rb:111:in `apply_move_effect_against_target_score'
+[Generation 9 Pack] [005] New AI_MoveEffects.rb:681:in `block in <main>'
+005_Event_Handlers.rb:139:in `trigger'
+001_Battle_AI.rb:106:in `apply_move_effect_score'
+005_AI_ChooseMove.rb:276:in `pbGetMoveScore'
+005_AI_ChooseMove.rb:81:in `block (2 levels) in pbGetMoveScores'
+001_PBDebug.rb:6:in `logonerr'
+005_AI_ChooseMove.rb:81:in `block in pbGetMoveScores'
+001_Battle_Battler.rb:462:in `block in eachMoveWithIndex'
+001_Battle_Battler.rb:462:in `each'
+001_Battle_Battler.rb:462:in `each_with_index'
+001_Battle_Battler.rb:462:in `eachMoveWithIndex'
+005_AI_ChooseMove.rb:25:in `pbGetMoveScores'
+001_Battle_AI.rb:67:in `pbDefaultChooseEnemyCommand'
+009_Battle_CommandPhase.rb:215:in `block in pbCommandPhaseLoop'
+009_Battle_CommandPhase.rb:203:in `loop'
+009_Battle_CommandPhase.rb:203:in `pbCommandPhaseLoop'
+009_Battle_CommandPhase.rb:194:in `pbCommandPhase'
+[Mid Battle Dialogue] MBD.rb:172:in `block (2 levels) in pbBattleLoop'
+001_PBDebug.rb:6:in `logonerr'
+[Mid Battle Dialogue] MBD.rb:172:in `block in pbBattleLoop'
+[Mid Battle Dialogue] MBD.rb:158:in `loop'
+[Mid Battle Dialogue] MBD.rb:158:in `pbBattleLoop'
+002_Battle_StartAndEnd.rb:316:in `pbStartBattleCore'
+002_Battle_StartAndEnd.rb:271:in `pbStartBattle'
+001_Overworld_BattleStarting.rb:521:in `block (2 levels) in start_core'
+002_Overworld_BattleIntroAnim.rb:55:in `pbSceneStandby'
+001_Overworld_BattleStarting.rb:521:in `block in start_core'
+002_Overworld_BattleIntroAnim.rb:126:in `pbBattleAnimation'
+001_Overworld_BattleStarting.rb:520:in `start_core'
+001_Overworld_BattleStarting.rb:486:in `start'
+(eval):1:in `execute_script'
+003_Interpreter.rb:138:in `eval'
+003_Interpreter.rb:138:in `execute_script'
+004_Interpreter_Commands.rb:434:in `command_111'
+004_Interpreter_Commands.rb:29:in `execute_command'
+003_Interpreter.rb:130:in `block in update'
+003_Interpreter.rb:86:in `loop'
+003_Interpreter.rb:86:in `update'
+002_Scene_Map.rb:167:in `block in update'
+002_Scene_Map.rb:166:in `loop'
+002_Scene_Map.rb:166:in `update'
+002_Scene_Map.rb:238:in `block in main'
+002_Scene_Map.rb:235:in `loop'
+002_Scene_Map.rb:235:in `main'
+999_Main.rb:35:in `mainFunctionDebug'
+999_Main.rb:18:in `block in mainFunction'
+003_Errors.rb:80:in `pbCriticalCode'
+999_Main.rb:18:in `mainFunction'
+999_Main.rb:45:in `block (2 levels) in load_scripts_from_folder'
+999_Main.rb:44:in `loop'
+999_Main.rb:44:in `block in load_scripts_from_folder'
+Section000:31:in `eval'
+Section000:31:in `block in load_scripts_from_folder'
+Section000:28:in `each'
+Section000:28:in `load_scripts_from_folder'
+Section000:41:in `block in load_scripts_from_folder'
+Section000:40:in `each'
+Section000:40:in `load_scripts_from_folder'
+Section000:45:in `<main>'
+-e:in `eval'
+
+
+[AI] Glimmora (1) is considering using Power Gem against Blastoise (0)...
+     +  6: damaging move (predicted damage 74 = 25% of target's HP)
+[AI] Glimmora (1) is considering using Spikes...
+     + 10: function code modifier (generic)
+[AI] Move choices for Glimmora (1):
+   *  28.1% to use Stealth Rock: score 110
+   *  19.3% to use Mortal Spin: score 100
+   *  24.6% to use Power Gem (target 0): score 106
+   *  28.1% to use Spikes: score 110
+   => will use Mortal Spin
+
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+[Use move] The opposing Glimmora (1) used Mortal Spin
+"The opposing Glimmora used Mortal Spin!"
+
+================================================================
+
+[Started battle] Single trainer battle (1 trainer(s) vs. 1 trainer(s))
+"You are challenged by Support Lily!"
+"Support Lily sent out Glimmora!"
+"Go! Blastoise!"
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+***Round 1***
+
+[AI] Glimmora (1) is considering using Stealth Rock...
+     + 10: function code modifier (generic)
+[AI] Glimmora (1) is considering using Mortal Spin...
+     +  1: damaging move (predicted damage 17 = 5% of target's HP)
+
+**Exception: undefined method `pbAbleNonActiveCount' for nil:NilClass
+[Generation 9 Pack] [005] New AI_MoveEffects.rb:673:in `block in <main>'
+005_Event_Handlers.rb:139:in `trigger'
+001_Battle_AI.rb:106:in `apply_move_effect_score'
+005_AI_ChooseMove.rb:276:in `pbGetMoveScore'
+005_AI_ChooseMove.rb:81:in `block (2 levels) in pbGetMoveScores'
+001_PBDebug.rb:6:in `logonerr'
+005_AI_ChooseMove.rb:81:in `block in pbGetMoveScores'
+001_Battle_Battler.rb:462:in `block in eachMoveWithIndex'
+001_Battle_Battler.rb:462:in `each'
+001_Battle_Battler.rb:462:in `each_with_index'
+001_Battle_Battler.rb:462:in `eachMoveWithIndex'
+005_AI_ChooseMove.rb:25:in `pbGetMoveScores'
+001_Battle_AI.rb:67:in `pbDefaultChooseEnemyCommand'
+009_Battle_CommandPhase.rb:215:in `block in pbCommandPhaseLoop'
+009_Battle_CommandPhase.rb:203:in `loop'
+009_Battle_CommandPhase.rb:203:in `pbCommandPhaseLoop'
+009_Battle_CommandPhase.rb:194:in `pbCommandPhase'
+[Mid Battle Dialogue] MBD.rb:172:in `block (2 levels) in pbBattleLoop'
+001_PBDebug.rb:6:in `logonerr'
+[Mid Battle Dialogue] MBD.rb:172:in `block in pbBattleLoop'
+[Mid Battle Dialogue] MBD.rb:158:in `loop'
+[Mid Battle Dialogue] MBD.rb:158:in `pbBattleLoop'
+002_Battle_StartAndEnd.rb:316:in `pbStartBattleCore'
+002_Battle_StartAndEnd.rb:271:in `pbStartBattle'
+001_Overworld_BattleStarting.rb:521:in `block (2 levels) in start_core'
+002_Overworld_BattleIntroAnim.rb:55:in `pbSceneStandby'
+001_Overworld_BattleStarting.rb:521:in `block in start_core'
+002_Overworld_BattleIntroAnim.rb:126:in `pbBattleAnimation'
+001_Overworld_BattleStarting.rb:520:in `start_core'
+001_Overworld_BattleStarting.rb:486:in `start'
+(eval):1:in `execute_script'
+003_Interpreter.rb:138:in `eval'
+003_Interpreter.rb:138:in `execute_script'
+004_Interpreter_Commands.rb:434:in `command_111'
+004_Interpreter_Commands.rb:29:in `execute_command'
+003_Interpreter.rb:130:in `block in update'
+003_Interpreter.rb:86:in `loop'
+003_Interpreter.rb:86:in `update'
+002_Scene_Map.rb:167:in `block in update'
+002_Scene_Map.rb:166:in `loop'
+002_Scene_Map.rb:166:in `update'
+002_Scene_Map.rb:238:in `block in main'
+002_Scene_Map.rb:235:in `loop'
+002_Scene_Map.rb:235:in `main'
+999_Main.rb:35:in `mainFunctionDebug'
+999_Main.rb:18:in `block in mainFunction'
+003_Errors.rb:80:in `pbCriticalCode'
+999_Main.rb:18:in `mainFunction'
+999_Main.rb:45:in `block (2 levels) in load_scripts_from_folder'
+999_Main.rb:44:in `loop'
+999_Main.rb:44:in `block in load_scripts_from_folder'
+Section000:31:in `eval'
+Section000:31:in `block in load_scripts_from_folder'
+Section000:28:in `each'
+Section000:28:in `load_scripts_from_folder'
+Section000:41:in `block in load_scripts_from_folder'
+Section000:40:in `each'
+Section000:40:in `load_scripts_from_folder'
+Section000:45:in `<main>'
+-e:in `eval'
+
+
+[AI] Glimmora (1) is considering using Power Gem against Blastoise (0)...
+     +  6: damaging move (predicted damage 74 = 25% of target's HP)
+[AI] Glimmora (1) is considering using Spikes...
+     + 10: function code modifier (generic)
+[AI] Move choices for Glimmora (1):
+   *  28.1% to use Stealth Rock: score 110
+   *  19.3% to use Mortal Spin: score 100
+   *  24.6% to use Power Gem (target 0): score 106
+   *  28.1% to use Spikes: score 110
+   => will use Power Gem (target 0)
+
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+[Use move] The opposing Glimmora (1) used Power Gem
+"The opposing Glimmora used Power Gem!"
+
+================================================================
+
+[Started battle] Single trainer battle (1 trainer(s) vs. 1 trainer(s))
+"You are challenged by Support Lily!"
+"Support Lily sent out Glimmora!"
+"Go! Blastoise!"
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+***Round 1***
+
+[AI] Glimmora (1) is considering using Stealth Rock...
+     + 10: function code modifier (generic)
+[AI] Glimmora (1) is considering using Mortal Spin...
+     +  1: damaging move (predicted damage 17 = 5% of target's HP)
+
+**Exception: undefined method `has_active_ability?' for nil:NilClass
+[Generation 9 Pack] [004] AI_MoveEffects.rb:58:in `block in <main>'
+005_Event_Handlers.rb:139:in `trigger'
+001_Battle_AI.rb:111:in `apply_move_effect_against_target_score'
+[Generation 9 Pack] [005] New AI_MoveEffects.rb:679:in `block in <main>'
+005_Event_Handlers.rb:139:in `trigger'
+001_Battle_AI.rb:106:in `apply_move_effect_score'
+005_AI_ChooseMove.rb:276:in `pbGetMoveScore'
+005_AI_ChooseMove.rb:81:in `block (2 levels) in pbGetMoveScores'
+001_PBDebug.rb:6:in `logonerr'
+005_AI_ChooseMove.rb:81:in `block in pbGetMoveScores'
+001_Battle_Battler.rb:462:in `block in eachMoveWithIndex'
+001_Battle_Battler.rb:462:in `each'
+001_Battle_Battler.rb:462:in `each_with_index'
+001_Battle_Battler.rb:462:in `eachMoveWithIndex'
+005_AI_ChooseMove.rb:25:in `pbGetMoveScores'
+001_Battle_AI.rb:67:in `pbDefaultChooseEnemyCommand'
+009_Battle_CommandPhase.rb:215:in `block in pbCommandPhaseLoop'
+009_Battle_CommandPhase.rb:203:in `loop'
+009_Battle_CommandPhase.rb:203:in `pbCommandPhaseLoop'
+009_Battle_CommandPhase.rb:194:in `pbCommandPhase'
+[Mid Battle Dialogue] MBD.rb:172:in `block (2 levels) in pbBattleLoop'
+001_PBDebug.rb:6:in `logonerr'
+[Mid Battle Dialogue] MBD.rb:172:in `block in pbBattleLoop'
+[Mid Battle Dialogue] MBD.rb:158:in `loop'
+[Mid Battle Dialogue] MBD.rb:158:in `pbBattleLoop'
+002_Battle_StartAndEnd.rb:316:in `pbStartBattleCore'
+002_Battle_StartAndEnd.rb:271:in `pbStartBattle'
+001_Overworld_BattleStarting.rb:521:in `block (2 levels) in start_core'
+002_Overworld_BattleIntroAnim.rb:55:in `pbSceneStandby'
+001_Overworld_BattleStarting.rb:521:in `block in start_core'
+002_Overworld_BattleIntroAnim.rb:126:in `pbBattleAnimation'
+001_Overworld_BattleStarting.rb:520:in `start_core'
+001_Overworld_BattleStarting.rb:486:in `start'
+(eval):1:in `execute_script'
+003_Interpreter.rb:138:in `eval'
+003_Interpreter.rb:138:in `execute_script'
+004_Interpreter_Commands.rb:434:in `command_111'
+004_Interpreter_Commands.rb:29:in `execute_command'
+003_Interpreter.rb:130:in `block in update'
+003_Interpreter.rb:86:in `loop'
+003_Interpreter.rb:86:in `update'
+002_Scene_Map.rb:167:in `block in update'
+002_Scene_Map.rb:166:in `loop'
+002_Scene_Map.rb:166:in `update'
+002_Scene_Map.rb:238:in `block in main'
+002_Scene_Map.rb:235:in `loop'
+002_Scene_Map.rb:235:in `main'
+999_Main.rb:35:in `mainFunctionDebug'
+999_Main.rb:18:in `block in mainFunction'
+003_Errors.rb:80:in `pbCriticalCode'
+999_Main.rb:18:in `mainFunction'
+999_Main.rb:45:in `block (2 levels) in load_scripts_from_folder'
+999_Main.rb:44:in `loop'
+999_Main.rb:44:in `block in load_scripts_from_folder'
+Section000:31:in `eval'
+Section000:31:in `block in load_scripts_from_folder'
+Section000:28:in `each'
+Section000:28:in `load_scripts_from_folder'
+Section000:41:in `block in load_scripts_from_folder'
+Section000:40:in `each'
+Section000:40:in `load_scripts_from_folder'
+Section000:45:in `<main>'
+-e:in `eval'
+
+
+[AI] Glimmora (1) is considering using Power Gem against Blastoise (0)...
+     +  6: damaging move (predicted damage 74 = 25% of target's HP)
+[AI] Glimmora (1) is considering using Spikes...
+     + 10: function code modifier (generic)
+[AI] Move choices for Glimmora (1):
+   *  28.1% to use Stealth Rock: score 110
+   *  19.3% to use Mortal Spin: score 100
+   *  24.6% to use Power Gem (target 0): score 106
+   *  28.1% to use Spikes: score 110
+   => will use Spikes
+
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+[Use move] The opposing Glimmora (1) used Spikes
+"The opposing Glimmora used Spikes!"
+
+================================================================
+
+[Started battle] Single trainer battle (1 trainer(s) vs. 1 trainer(s))
+"You are challenged by Support Lily!"
+"Support Lily sent out Glimmora!"
+"Go! Blastoise!"
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+***Round 1***
+
+[AI] Glimmora (1) is considering using Stealth Rock...
+     + 10: function code modifier (generic)
+[AI] Glimmora (1) is considering using Mortal Spin...
+     +  1: damaging move (predicted damage 17 = 5% of target's HP)
+
+**Exception: undefined method `has_active_ability?' for nil:NilClass
+[Generation 9 Pack] [004] AI_MoveEffects.rb:58:in `block in <main>'
+005_Event_Handlers.rb:139:in `trigger'
+001_Battle_AI.rb:111:in `apply_move_effect_against_target_score'
+[Generation 9 Pack] [005] New AI_MoveEffects.rb:679:in `block in <main>'
+005_Event_Handlers.rb:139:in `trigger'
+001_Battle_AI.rb:106:in `apply_move_effect_score'
+005_AI_ChooseMove.rb:276:in `pbGetMoveScore'
+005_AI_ChooseMove.rb:81:in `block (2 levels) in pbGetMoveScores'
+001_PBDebug.rb:6:in `logonerr'
+005_AI_ChooseMove.rb:81:in `block in pbGetMoveScores'
+001_Battle_Battler.rb:462:in `block in eachMoveWithIndex'
+001_Battle_Battler.rb:462:in `each'
+001_Battle_Battler.rb:462:in `each_with_index'
+001_Battle_Battler.rb:462:in `eachMoveWithIndex'
+005_AI_ChooseMove.rb:25:in `pbGetMoveScores'
+001_Battle_AI.rb:67:in `pbDefaultChooseEnemyCommand'
+009_Battle_CommandPhase.rb:215:in `block in pbCommandPhaseLoop'
+009_Battle_CommandPhase.rb:203:in `loop'
+009_Battle_CommandPhase.rb:203:in `pbCommandPhaseLoop'
+009_Battle_CommandPhase.rb:194:in `pbCommandPhase'
+[Mid Battle Dialogue] MBD.rb:172:in `block (2 levels) in pbBattleLoop'
+001_PBDebug.rb:6:in `logonerr'
+[Mid Battle Dialogue] MBD.rb:172:in `block in pbBattleLoop'
+[Mid Battle Dialogue] MBD.rb:158:in `loop'
+[Mid Battle Dialogue] MBD.rb:158:in `pbBattleLoop'
+002_Battle_StartAndEnd.rb:316:in `pbStartBattleCore'
+002_Battle_StartAndEnd.rb:271:in `pbStartBattle'
+001_Overworld_BattleStarting.rb:521:in `block (2 levels) in start_core'
+002_Overworld_BattleIntroAnim.rb:55:in `pbSceneStandby'
+001_Overworld_BattleStarting.rb:521:in `block in start_core'
+002_Overworld_BattleIntroAnim.rb:126:in `pbBattleAnimation'
+001_Overworld_BattleStarting.rb:520:in `start_core'
+001_Overworld_BattleStarting.rb:486:in `start'
+(eval):1:in `execute_script'
+003_Interpreter.rb:138:in `eval'
+003_Interpreter.rb:138:in `execute_script'
+004_Interpreter_Commands.rb:434:in `command_111'
+004_Interpreter_Commands.rb:29:in `execute_command'
+003_Interpreter.rb:130:in `block in update'
+003_Interpreter.rb:86:in `loop'
+003_Interpreter.rb:86:in `update'
+002_Scene_Map.rb:167:in `block in update'
+002_Scene_Map.rb:166:in `loop'
+002_Scene_Map.rb:166:in `update'
+002_Scene_Map.rb:238:in `block in main'
+002_Scene_Map.rb:235:in `loop'
+002_Scene_Map.rb:235:in `main'
+999_Main.rb:35:in `mainFunctionDebug'
+999_Main.rb:18:in `block in mainFunction'
+003_Errors.rb:80:in `pbCriticalCode'
+999_Main.rb:18:in `mainFunction'
+999_Main.rb:45:in `block (2 levels) in load_scripts_from_folder'
+999_Main.rb:44:in `loop'
+999_Main.rb:44:in `block in load_scripts_from_folder'
+Section000:31:in `eval'
+Section000:31:in `block in load_scripts_from_folder'
+Section000:28:in `each'
+Section000:28:in `load_scripts_from_folder'
+Section000:41:in `block in load_scripts_from_folder'
+Section000:40:in `each'
+Section000:40:in `load_scripts_from_folder'
+Section000:45:in `<main>'
+-e:in `eval'
+
+
+[AI] Glimmora (1) is considering using Power Gem against Blastoise (0)...
+     +  6: damaging move (predicted damage 74 = 25% of target's HP)
+[AI] Glimmora (1) is considering using Spikes...
+     + 10: function code modifier (generic)
+[AI] Move choices for Glimmora (1):
+   *  28.1% to use Stealth Rock: score 110
+   *  19.3% to use Mortal Spin: score 100
+   *  24.6% to use Power Gem (target 0): score 106
+   *  28.1% to use Spikes: score 110
+   => will use Mortal Spin
+
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+[Use move] The opposing Glimmora (1) used Mortal Spin
+"The opposing Glimmora used Mortal Spin!"
+
+================================================================
+
+[Started battle] Single trainer battle (1 trainer(s) vs. 1 trainer(s))
+"You are challenged by Support Lily!"
+"Support Lily sent out Glimmora!"
+"Go! Blastoise!"
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+***Round 1***
+
+[AI] Glimmora (1) is considering using Stealth Rock...
+     + 10: function code modifier (generic)
+[AI] Glimmora (1) is considering using Mortal Spin...
+     +  1: damaging move (predicted damage 17 = 5% of target's HP)
+
+**Exception: undefined method `has_active_item?' for nil:NilClass
+[Generation 9 Pack] [004] AI_MoveEffects.rb:60:in `block in <main>'
+005_Event_Handlers.rb:139:in `trigger'
+001_Battle_AI.rb:111:in `apply_move_effect_against_target_score'
+[Generation 9 Pack] [005] New AI_MoveEffects.rb:679:in `block in <main>'
+005_Event_Handlers.rb:139:in `trigger'
+001_Battle_AI.rb:106:in `apply_move_effect_score'
+005_AI_ChooseMove.rb:276:in `pbGetMoveScore'
+005_AI_ChooseMove.rb:81:in `block (2 levels) in pbGetMoveScores'
+001_PBDebug.rb:6:in `logonerr'
+005_AI_ChooseMove.rb:81:in `block in pbGetMoveScores'
+001_Battle_Battler.rb:462:in `block in eachMoveWithIndex'
+001_Battle_Battler.rb:462:in `each'
+001_Battle_Battler.rb:462:in `each_with_index'
+001_Battle_Battler.rb:462:in `eachMoveWithIndex'
+005_AI_ChooseMove.rb:25:in `pbGetMoveScores'
+001_Battle_AI.rb:67:in `pbDefaultChooseEnemyCommand'
+009_Battle_CommandPhase.rb:215:in `block in pbCommandPhaseLoop'
+009_Battle_CommandPhase.rb:203:in `loop'
+009_Battle_CommandPhase.rb:203:in `pbCommandPhaseLoop'
+009_Battle_CommandPhase.rb:194:in `pbCommandPhase'
+[Mid Battle Dialogue] MBD.rb:172:in `block (2 levels) in pbBattleLoop'
+001_PBDebug.rb:6:in `logonerr'
+[Mid Battle Dialogue] MBD.rb:172:in `block in pbBattleLoop'
+[Mid Battle Dialogue] MBD.rb:158:in `loop'
+[Mid Battle Dialogue] MBD.rb:158:in `pbBattleLoop'
+002_Battle_StartAndEnd.rb:316:in `pbStartBattleCore'
+002_Battle_StartAndEnd.rb:271:in `pbStartBattle'
+001_Overworld_BattleStarting.rb:521:in `block (2 levels) in start_core'
+002_Overworld_BattleIntroAnim.rb:55:in `pbSceneStandby'
+001_Overworld_BattleStarting.rb:521:in `block in start_core'
+002_Overworld_BattleIntroAnim.rb:126:in `pbBattleAnimation'
+001_Overworld_BattleStarting.rb:520:in `start_core'
+001_Overworld_BattleStarting.rb:486:in `start'
+(eval):1:in `execute_script'
+003_Interpreter.rb:138:in `eval'
+003_Interpreter.rb:138:in `execute_script'
+004_Interpreter_Commands.rb:434:in `command_111'
+004_Interpreter_Commands.rb:29:in `execute_command'
+003_Interpreter.rb:130:in `block in update'
+003_Interpreter.rb:86:in `loop'
+003_Interpreter.rb:86:in `update'
+002_Scene_Map.rb:167:in `block in update'
+002_Scene_Map.rb:166:in `loop'
+002_Scene_Map.rb:166:in `update'
+002_Scene_Map.rb:238:in `block in main'
+002_Scene_Map.rb:235:in `loop'
+002_Scene_Map.rb:235:in `main'
+999_Main.rb:35:in `mainFunctionDebug'
+999_Main.rb:18:in `block in mainFunction'
+003_Errors.rb:80:in `pbCriticalCode'
+999_Main.rb:18:in `mainFunction'
+999_Main.rb:45:in `block (2 levels) in load_scripts_from_folder'
+999_Main.rb:44:in `loop'
+999_Main.rb:44:in `block in load_scripts_from_folder'
+Section000:31:in `eval'
+Section000:31:in `block in load_scripts_from_folder'
+Section000:28:in `each'
+Section000:28:in `load_scripts_from_folder'
+Section000:41:in `block in load_scripts_from_folder'
+Section000:40:in `each'
+Section000:40:in `load_scripts_from_folder'
+Section000:45:in `<main>'
+-e:in `eval'
+
+
