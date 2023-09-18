@@ -1049,3 +1049,364 @@ Section000:45:in `<main>'
 -e:in `eval'
 
 
+
+================================================================
+
+[Started battle] Single trainer battle (1 trainer(s) vs. 1 trainer(s))
+"You are challenged by Support Lily!"
+"Support Lily sent out Glimmora!"
+"Go! Blastoise!"
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+***Round 1***
+
+[AI] Glimmora (1) is considering using Stealth Rock...
+     + 10: function code modifier (generic)
+[AI] Glimmora (1) is considering using Mortal Spin...
+     + 15: function code modifier (against target)
+     +  1: damaging move (predicted damage 17 = 5% of target's HP)
+[AI] Glimmora (1) is considering using Power Gem against Blastoise (0)...
+     +  6: damaging move (predicted damage 74 = 25% of target's HP)
+[AI] Glimmora (1) is considering using Spikes...
+     + 10: function code modifier (generic)
+[AI] Move choices for Glimmora (1):
+   *  24.6% to use Stealth Rock: score 110
+   *  29.8% to use Mortal Spin: score 116
+   *  21.1% to use Power Gem (target 0): score 106
+   *  24.6% to use Spikes: score 110
+   => will use Mortal Spin
+
+[Round order] The opposing Glimmora (1), Blastoise (0)
+
+[Use move] The opposing Glimmora (1) used Mortal Spin
+"The opposing Glimmora used Mortal Spin!"
+[HP change] Blastoise lost 14 HP (294=>280)
+"Blastoise was poisoned!"
+[Use move] Blastoise (0) used Metal Claw
+"Blastoise used Metal Claw!"
+[HP change] The opposing Glimmora lost 86 HP (287=>201)
+"It's super effective!"
+"The opposing Glimmora held up its Red Card against Blastoise!"
+[Item consumed] The opposing Glimmora consumed its held Red Card
+"Regigigas was dragged out!"
+[Ability triggered] Regigigas's Slow Start
+"Regigigas can't get it going!"
+
+[End of round 1]
+
+***Round 2***
+
+[AI] Glimmora (1) is considering using Stealth Rock...
+     + 10: function code modifier (generic)
+[AI] Glimmora (1) is considering using Mortal Spin...
+     + 15: function code modifier (against target)
+     +  1: damaging move (predicted damage 17 = 4% of target's HP)
+[AI] Glimmora (1) is considering using Power Gem against Regigigas (0)...
+     +  4: damaging move (predicted damage 65 = 18% of target's HP)
+[AI] Glimmora (1) is considering using Spikes...
+     + 10: function code modifier (generic)
+[AI] Move choices for Glimmora (1):
+   *  25.0% to use Stealth Rock: score 110
+   *  30.4% to use Mortal Spin: score 116
+   *  19.6% to use Power Gem (target 0): score 104
+   *  25.0% to use Spikes: score 110
+   => will use Power Gem (target 0)
+
+[Round order] The opposing Glimmora (1), Regigigas (0)
+
+[Use move] The opposing Glimmora (1) used Power Gem
+"The opposing Glimmora used Power Gem!"
+[HP change] Regigigas lost 56 HP (349=>293)
+[Use move] Regigigas (0) used Crush Grip
+"Regigigas used Crush Grip!"
+[HP change] The opposing Glimmora lost 54 HP (201=>147)
+"It's not very effective..."
+
+[End of round 2]
+
+***Round 3***
+
+[AI] Glimmora (1) is considering using Stealth Rock...
+     + 10: function code modifier (generic)
+[AI] Glimmora (1) is considering using Mortal Spin...
+     + 15: function code modifier (against target)
+     +  1: damaging move (predicted damage 17 = 5% of target's HP)
+[AI] Glimmora (1) is considering using Power Gem against Regigigas (0)...
+     +  5: damaging move (predicted damage 65 = 22% of target's HP)
+[AI] Glimmora (1) is considering using Spikes...
+     + 10: function code modifier (generic)
+[AI] Move choices for Glimmora (1):
+   *  24.8% to use Stealth Rock: score 110
+   *  30.1% to use Mortal Spin: score 116
+   *  20.4% to use Power Gem (target 0): score 105
+   *  24.8% to use Spikes: score 110
+   => will use Mortal Spin
+
+[Round order] The opposing Glimmora (1), Regigigas (0)
+
+[Use move] The opposing Glimmora (1) used Mortal Spin
+"The opposing Glimmora used Mortal Spin!"
+[HP change] Regigigas lost 15 HP (293=>278)
+"Regigigas was poisoned!"
+[Use move] Regigigas (0) used Giga Impact
+"Regigigas used Giga Impact!"
+[HP change] The opposing Glimmora lost 94 HP (147=>53)
+"It's not very effective..."
+
+[End of round 3]
+[HP change] Regigigas lost 43 HP (278=>235)
+"Regigigas was hurt by poison!"
+
+***Round 4***
+
+[AI] Regigigas (0) is forced to use a multi-turn move
+[AI] Glimmora (1) will use item Full Restore
+
+[Round order] The opposing Glimmora (1), Regigigas (0)
+
+"Support Lily used a Full Restore."
+[Status change] The opposing Glimmora's status was cured
+[HP change] The opposing Glimmora gained 234 HP (53 -> 287)
+"The opposing Glimmora's HP was restored."
+[Use move] Regigigas (0) used Giga Impact
+[Move failed] Regigigas is recharging after using Giga Impact
+"Regigigas must recharge!"
+
+[End of round 4]
+[HP change] Regigigas lost 43 HP (235=>192)
+"Regigigas was hurt by poison!"
+
+***Round 5***
+
+[AI] Glimmora (1) is considering using Stealth Rock...
+     + 10: function code modifier (generic)
+[AI] Glimmora (1) is considering using Mortal Spin...
+     +  2: damaging move (predicted damage 17 = 8% of target's HP)
+[AI] Glimmora (1) is considering using Power Gem against Regigigas (0)...
+     +  8: damaging move (predicted damage 65 = 33% of target's HP)
+[AI] Glimmora (1) is considering using Spikes...
+     + 10: function code modifier (generic)
+[AI] Move choices for Glimmora (1):
+   *  27.1% to use Stealth Rock: score 110
+   *  20.3% to use Mortal Spin: score 102
+   *  25.4% to use Power Gem (target 0): score 108
+   *  27.1% to use Spikes: score 110
+   => will use Spikes
+
+[Round order] The opposing Glimmora (1), Regigigas (0)
+
+[Use move] The opposing Glimmora (1) used Spikes
+"The opposing Glimmora used Spikes!"
+"Spikes were scattered all around your team's feet!"
+[Use move] Regigigas (0) used Heavy Slam
+"Regigigas used Heavy Slam!"
+[HP change] The opposing Glimmora lost 188 HP (287=>99)
+"It's super effective!"
+
+[End of round 5]
+[HP change] Regigigas lost 43 HP (192=>149)
+"Regigigas was hurt by poison!"
+"Regigigas finally got its act together!"
+
+***Round 6***
+
+[AI] Glimmora (1) will use item Full Restore
+
+[Round order] Regigigas (0), the opposing Glimmora (1)
+
+"Support Lily used a Full Restore."
+[Status change] The opposing Glimmora's status was cured
+[HP change] The opposing Glimmora gained 188 HP (99 -> 287)
+"The opposing Glimmora's HP was restored."
+[Use move] Regigigas (0) used Heavy Slam
+"Regigigas used Heavy Slam!"
+[HP change] The opposing Glimmora lost 287 HP (287=>0)
+"It's super effective!"
+"The opposing Glimmora fainted!"
+
+[End of round 6]
+[HP change] Regigigas lost 43 HP (149=>106)
+"Regigigas was hurt by poison!"
+"Support Lily is about to send in Dragalge. Will you switch your Pokémon?"
+"OK, Regigigas! Come back!"
+"You're in charge, Blastoise!"
+"Support Lily sent out Dragalge!"
+[HP change] Blastoise lost 36 HP (280=>244)
+"Blastoise is hurt by the spikes!"
+
+***Round 7***
+
+[AI] Dragalge (1) is considering using Sludge Bomb against Blastoise (0)...
+     + 11: damaging move (predicted damage 110 = 45% of target's HP)
+[AI] Dragalge (1) is considering using Thunderbolt against Blastoise (0)...
+     + 11: damaging move (predicted damage 110 = 45% of target's HP)
+[AI] Dragalge (1) is considering using Draco Meteor against Blastoise (0)...
+     + 16: damaging move (predicted damage 158 = 64% of target's HP)
+     - 12: lowering the user's Special Attack by 2
+     - 12: function code modifier (generic)
+[AI] Dragalge (1) is considering using Scald against Blastoise (0)...
+     +  2: damaging move (predicted damage 25 = 10% of target's HP)
+[AI] Move choices for Dragalge (1):
+   *  28.4% to use Sludge Bomb (target 0): score 111
+   *  28.4% to use Thunderbolt (target 0): score 111
+   *  22.4% to use Draco Meteor (target 0): score 104
+   *  20.7% to use Scald (target 0): score 102
+   => will use Scald (target 0)
+
+[Round order] Blastoise (0), the opposing Dragalge (1)
+
+[Use move] Blastoise (0) used Metal Claw
+"Blastoise used Metal Claw!"
+[HP change] The opposing Dragalge lost 47 HP (249=>202)
+[Use move] The opposing Dragalge (1) used Scald
+"The opposing Dragalge used Scald!"
+[HP change] Blastoise lost 24 HP (244=>220)
+"It's not very effective..."
+
+[End of round 7]
+[HP change] Blastoise lost 36 HP (220=>184)
+"Blastoise was hurt by poison!"
+
+***Round 8***
+
+"No! There's no running from a Trainer battle!"
+[AI] Dragalge (1) is considering using Sludge Bomb against Blastoise (0)...
+     + 14: damaging move (predicted damage 110 = 59% of target's HP)
+[AI] Dragalge (1) is considering using Thunderbolt against Blastoise (0)...
+     + 14: damaging move (predicted damage 110 = 59% of target's HP)
+[AI] Dragalge (1) is considering using Draco Meteor against Blastoise (0)...
+     + 21: damaging move (predicted damage 158 = 85% of target's HP)
+     - 12: lowering the user's Special Attack by 2
+     - 12: function code modifier (generic)
+[AI] Dragalge (1) is considering using Scald against Blastoise (0)...
+     +  3: damaging move (predicted damage 25 = 13% of target's HP)
+[AI] Move choices for Dragalge (1):
+   *  28.4% to use Sludge Bomb (target 0): score 114
+   *  28.4% to use Thunderbolt (target 0): score 114
+   *  24.1% to use Draco Meteor (target 0): score 109
+   *  19.0% to use Scald (target 0): score 103
+   => will use Draco Meteor (target 0)
+
+[Round order] Blastoise (0), the opposing Dragalge (1)
+
+[Use move] Blastoise (0) used Metal Claw
+"Blastoise used Metal Claw!"
+[HP change] The opposing Dragalge lost 47 HP (202=>155)
+[Use move] The opposing Dragalge (1) used Draco Meteor
+"The opposing Dragalge used Draco Meteor!"
+[Move failed] Failed pbAccuracyCheck
+"The opposing Dragalge's attack missed!"
+
+[End of round 8]
+[HP change] Blastoise lost 36 HP (184=>148)
+"Blastoise was hurt by poison!"
+
+***Round 9***
+
+[AI] Dragalge (1) is considering using Sludge Bomb against Blastoise (0)...
+     + 18: damaging move (predicted damage 110 = 74% of target's HP)
+[AI] Dragalge (1) is considering using Thunderbolt against Blastoise (0)...
+     + 18: damaging move (predicted damage 110 = 74% of target's HP)
+[AI] Dragalge (1) is considering using Draco Meteor against Blastoise (0)...
+     + 26: damaging move (predicted damage 158 = 106% of target's HP)
+     - 12: lowering the user's Special Attack by 2
+     - 12: function code modifier (generic)
+[AI] Dragalge (1) is considering using Scald against Blastoise (0)...
+     +  4: damaging move (predicted damage 25 = 16% of target's HP)
+[AI] Move choices for Dragalge (1):
+   *  28.7% to use Sludge Bomb (target 0): score 118
+   *  28.7% to use Thunderbolt (target 0): score 118
+   *  25.4% to use Draco Meteor (target 0): score 114
+   *  17.2% to use Scald (target 0): score 104
+   => will use Thunderbolt (target 0)
+
+[Round order] Blastoise (0), the opposing Dragalge (1)
+
+[Use move] Blastoise (0) used Metal Claw
+"Blastoise used Metal Claw!"
+[HP change] The opposing Dragalge lost 43 HP (155=>112)
+[Use move] The opposing Dragalge (1) used Thunderbolt
+"The opposing Dragalge used Thunderbolt!"
+[HP change] Blastoise lost 105 HP (148=>43)
+"It's super effective!"
+
+[End of round 9]
+[HP change] Blastoise lost 36 HP (43=>7)
+"Blastoise was hurt by poison!"
+
+***Round 10***
+
+[AI] Dragalge (1) is considering using Sludge Bomb against Blastoise (0)...
+     + 15: function code modifier (against target)
+     +  9: damaging move (predicted damage 110 = 37% of target's HP)
+[AI] Dragalge (1) is considering using Thunderbolt against Blastoise (0)...
+     + 25: function code modifier (against target)
+     +  9: damaging move (predicted damage 110 = 37% of target's HP)
+[AI] Dragalge (1) is considering using Draco Meteor against Blastoise (0)...
+     + 13: damaging move (predicted damage 158 = 53% of target's HP)
+     - 12: lowering the user's Special Attack by 2
+     - 12: function code modifier (generic)
+[AI] Dragalge (1) is considering using Scald against Blastoise (0)...
+     + 23: function code modifier (against target)
+     +  2: damaging move (predicted damage 25 = 8% of target's HP)
+[AI] Move choices for Dragalge (1):
+   *  27.9% to use Sludge Bomb (target 0): score 124
+   *  37.5% to use Thunderbolt (target 0): score 134
+   *   5.8% to use Draco Meteor (target 0): score 101
+   *  28.8% to use Scald (target 0): score 125
+   => will use Thunderbolt (target 0)
+
+[Round order] Blastoise (0), the opposing Dragalge (1)
+
+[Use move] Blastoise (0) used Shell Smash
+"Blastoise used Shell Smash!"
+[Stat change] Blastoise's Defense changed by -1 (0 -> -1)
+"Blastoise's Defense fell!"
+[Stat change] Blastoise's Special Defense changed by -1 (0 -> -1)
+"Blastoise's Special Defense fell!"
+[Stat change] Blastoise's Attack changed by +2 (0 -> 2)
+"Blastoise's Attack rose sharply!"
+[Stat change] Blastoise's Special Attack changed by +2 (0 -> 2)
+"Blastoise's Special Attack rose sharply!"
+[Stat change] Blastoise's Speed changed by +2 (0 -> 2)
+"Blastoise's Speed rose sharply!"
+[Use move] The opposing Dragalge (1) used Thunderbolt
+"The opposing Dragalge used Thunderbolt!"
+[HP change] Blastoise lost 164 HP (294=>130)
+"It's super effective!"
+
+[End of round 10]
+
+***Round 11***
+
+[AI] Dragalge (1) is considering using Sludge Bomb against Blastoise (0)...
+     + 15: function code modifier (against target)
+     + 30: damaging move (predicted damage 164 = 126% of target's HP)
+[AI] Dragalge (1) is considering using Thunderbolt against Blastoise (0)...
+     + 10: function code modifier (against target)
+     + 30: damaging move (predicted damage 164 = 126% of target's HP)
+[AI] Dragalge (1) is considering using Draco Meteor against Blastoise (0)...
+     + 30: damaging move (predicted damage 236 = 181% of target's HP)
+     - 12: lowering the user's Special Attack by 2
+     - 12: function code modifier (generic)
+[AI] Dragalge (1) is considering using Scald against Blastoise (0)...
+     + 23: function code modifier (against target)
+     +  7: damaging move (predicted damage 37 = 28% of target's HP)
+[AI] Move choices for Dragalge (1):
+   *  34.7% to use Sludge Bomb (target 0): score 145
+   *  30.6% to use Thunderbolt (target 0): score 140
+   *  12.4% to use Draco Meteor (target 0): score 118
+   *  22.3% to use Scald (target 0): score 130
+   => will use Sludge Bomb (target 0)
+
+[Round order] Blastoise (0), the opposing Dragalge (1)
+
+[Use move] Blastoise (0) used Metal Claw
+"Blastoise used Metal Claw!"
+[HP change] The opposing Dragalge lost 97 HP (112=>15)
+[Use move] The opposing Dragalge (1) used Sludge Bomb
+"The opposing Dragalge used Sludge Bomb!"
+[HP change] Blastoise lost 130 HP (130=>0)
+"Blastoise fainted!"
+
+[End of round 11]
