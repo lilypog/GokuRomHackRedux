@@ -415,6 +415,8 @@ BaseMoney = 10
 Name = Mid Laner
 Gender = Female
 BaseMoney = 10
+BattleBGM = SeraBGM
+VictoryBGM = SeraVictory
 #-------------------------------
 [ADC]
 Name = ADC
@@ -461,6 +463,13 @@ BattleBGM = Battle Gym Leader
 VictoryBGM = Battle victory leader
 #-------------------------------
 [LEADER_Kirry]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = Battle Gym Leader
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_NaomiGoof]
 Name = Gym Leader
 Gender = Female
 BaseMoney = 100
