@@ -347,23 +347,23 @@ class Battle::Move::UserTargetAverageHP < Battle::Move
   end
 end
 
-Battle::AbilityEffects::OnSwitchIn.add(:IMPOSTER,
-  proc { |ability, battler, battle, target, switch_in|
-    next if !switch_in || battler.effects[PBEffects::Transform] || target.effects[PBEffects::BossProtect] #boss
-    choice = battler.pbDirectOpposing
-    next if choice.fainted?
-    next if choice.effects[PBEffects::Transform] ||
-            choice.effects[PBEffects::Illusion] ||
-            choice.effects[PBEffects::Substitute] > 0 ||
-            choice.effects[PBEffects::SkyDrop] >= 0 ||
-            choice.semiInvulnerable?
-    battle.pbShowAbilitySplash(battler, true)
-    battle.pbHideAbilitySplash(battler)
-    battle.pbAnimation(:TRANSFORM, battler, choice)
-    battle.scene.pbChangePokemon(battler, choice.pokemon)
-    battler.pbTransform(choice)
-  }
-)
+#Battle::AbilityEffects::OnSwitchIn.add(:IMPOSTER,
+#  proc { |ability, battler, battle, target, switch_in|
+#    next if !switch_in || battler.effects[PBEffects::Transform] || target.effects[PBEffects::BossProtect] #boss
+#    choice = battler.pbDirectOpposing
+#    next if choice.fainted?
+#    next if choice.effects[PBEffects::Transform] ||
+#            choice.effects[PBEffects::Illusion] ||
+#            choice.effects[PBEffects::Substitute] > 0 ||
+#            choice.effects[PBEffects::SkyDrop] >= 0 ||
+#            choice.semiInvulnerable?
+#    battle.pbShowAbilitySplash(battler, true)
+#    battle.pbHideAbilitySplash(battler)
+#    battle.pbAnimation(:TRANSFORM, battler, choice)
+#    battle.scene.pbChangePokemon(battler, choice.pokemon)
+#    battler.pbTransform(choice)
+#  }
+#)
 
 class Battle::Move::StartLeechSeedTarget < Battle::Move
 
