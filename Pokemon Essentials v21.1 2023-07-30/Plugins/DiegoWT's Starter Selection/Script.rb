@@ -475,6 +475,7 @@ class DiegoWTsStarterSelection
     if confirm == 1
       @sprites["textbox"].visible = false
       $game_variables[7] = @select if $game_variables[7] == 0
+      $game_switches[3] = false
       @endscene = 1
       pbCloseScene
       pbAddPokemon(@data["pkmn_#{@select}"],StarterSelSettings::STARTERL)

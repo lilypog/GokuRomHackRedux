@@ -433,7 +433,7 @@ BattleBGM = LilyBGM
 Name = Gym Leader
 Gender = Male
 BaseMoney = 100
-BattleBGM = Battle Gym Leader
+BattleBGM = PhilippeBGM
 VictoryBGM = Battle victory leader
 #-------------------------------
 [LEADER_Trevor]
@@ -471,9 +471,13 @@ BaseMoney = 100
 BattleBGM = Battle Gym Leader
 VictoryBGM = Battle victory leader
 #-------------------------------
-[LEADER_NaomiGoof]
-Name = Gym Leader
+[RIVAL_ELLIE_1]
+Name = Rival
 Gender = Female
 BaseMoney = 100
-BattleBGM = Battle Gym Leader
-VictoryBGM = Battle victory leader
+BattleBGM = EllieBGM
+#-------------------------------
+[RIVAL_ZACH_1]
+Name = Rival
+Gender = Male
+BaseMoney = 100

@@ -386,7 +386,7 @@ Pokemon = WEEZING,75
 	IV = 31,31,31,31,31,31
 	EV = 252,0,252,4,0,0
 	Nature = BOLD
-    #-------------------------------
+#-------------------------------
 [TOPLANER,Tak]
 Items = FULLRESTORE,FULLRESTORE,FULLRESTORE,FULLRESTORE
 LoseText = Ahh, I don't know why we went in one at a time...
@@ -433,3 +433,54 @@ Pokemon = LATIOS,80
     Nature = TIMID
     IV = 31,2,31,30,31,30
     EV = 4,0,0,252,252,0
+#-------------------------------
+[RIVAL_ELLIE_1,Ellie]
+LoseText = WHAT THE FUCK
+Pokemon = VANILLITE,5
+#-------------------------------
+[RIVAL_ELLIE_1,Ellie,1]
+LoseText = WHAT THE FUCK
+Pokemon = LARVITAR,5
+#-------------------------------
+[RIVAL_ELLIE_1,Ellie,2]
+LoseText = WHAT THE FUCK
+Pokemon = POLIWAG,5
+#-------------------------------
+[RIVAL_ZACH_1,Zach]
+LoseText = Ick
+Pokemon = LARVITAR,5
+#-------------------------------
+[RIVAL_ZACH_1,Zach,1]
+LoseText = Ick
+Pokemon = POLIWAG,5
+#-------------------------------
+[RIVAL_ZACH_1,Zach,2]
+LoseText = Ick
+Pokemon = VANILLITE,5
+#-------------------------------
+[LEADER_Naomi,Naomi,1]
+LoseText = A BAT CREDIT CARD?!
+Pokemon = DITTO,25
+	AbilityIndex = 2
+	Item = CHOICESCARF
+	IV = 31,31,31,31,31,31
+	EV = 252,0,252,0,0,0
+	Nature = BOLD
+Pokemon = DITTO,25
+	AbilityIndex = 2
+	Item = CHOICESCARF
+	IV = 31,31,31,31,31,31
+	EV = 252,0,252,0,0,0
+	Nature = BOLD
+Pokemon = DITTO,25
+	AbilityIndex = 2
+	Item = CHOICESCARF
+	IV = 31,31,31,31,31,31
+	EV = 252,0,252,0,0,0
+	Nature = BOLD
+Pokemon = DITTO,25
+	AbilityIndex = 2
+	Item = CHOICESCARF
+	IV = 31,31,31,31,31,31
+	EV = 252,0,252,0,0,0
+	Nature = BOLD
