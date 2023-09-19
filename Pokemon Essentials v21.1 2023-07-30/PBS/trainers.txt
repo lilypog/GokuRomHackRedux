@@ -436,12 +436,12 @@ Pokemon = LATIOS,80
 #-------------------------------
 [RIVAL_ELLIE_1,Ellie]
 LoseText = WHAT THE FUCK
-POKEMON = Vanillite,5
+Pokemon = VANILLITE,5
 #-------------------------------
 [RIVAL_ELLIE_1,Ellie,1]
 LoseText = WHAT THE FUCK
-POKEMON = Larvitar,5
+Pokemon = LARVITAR,5
 #-------------------------------
 [RIVAL_ELLIE_1,Ellie,2]
 LoseText = WHAT THE FUCK
-POKEMON = Poliwag,5
+Pokemon = POLIWAG,5
