@@ -348,7 +348,7 @@ class Battle::Move::UserTargetAverageHP < Battle::Move
 end
 
 Battle::AbilityEffects::OnSwitchIn.add(:IMPOSTER,
-  proc { |ability, battler, battle, switch_in|
+  proc { |ability, battler, battle, target, switch_in|
     next if !switch_in || battler.effects[PBEffects::Transform] || target.effects[PBEffects::BossProtect] #boss
     choice = battler.pbDirectOpposing
     next if choice.fainted?
