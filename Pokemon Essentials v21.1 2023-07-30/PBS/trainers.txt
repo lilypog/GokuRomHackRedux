@@ -436,12 +436,51 @@ Pokemon = LATIOS,80
 #-------------------------------
 [RIVAL_ELLIE_1,Ellie]
 LoseText = WHAT THE FUCK
-POKEMON = Vanillite,5
+Pokemon = VANILLITE,5
 #-------------------------------
 [RIVAL_ELLIE_1,Ellie,1]
 LoseText = WHAT THE FUCK
-POKEMON = Larvitar,5
+Pokemon = LARVITAR,5
 #-------------------------------
 [RIVAL_ELLIE_1,Ellie,2]
 LoseText = WHAT THE FUCK
-POKEMON = Poliwag,5
+Pokemon = POLIWAG,5
+#-------------------------------
+[RIVAL_ZACH_1,Zach]
+LoseText = Ick
+Pokemon = LARVITAR,5
+#-------------------------------
+[RIVAL_ZACH_1,Zach,1]
+LoseText = Ick
+Pokemon = POLIWAG,5
+#-------------------------------
+[RIVAL_ZACH_1,Zach,2]
+LoseText = Ick
+Pokemon = VANILLITE,5
+#-------------------------------
+[LEADER_Naomi,Naomi,1]
+LoseText = A BAT CREDIT CARD?!
+Pokemon = DITTO,25
+	AbilityIndex = 2
+	Item = CHOICESCARF
+	IV = 31,31,31,31,31,31
+	EV = 252,0,252,0,0,0
+	Nature = BOLD
+Pokemon = DITTO,25
+	AbilityIndex = 2
+	Item = CHOICESCARF
+	IV = 31,31,31,31,31,31
+	EV = 252,0,252,0,0,0
+	Nature = BOLD
+Pokemon = DITTO,25
+	AbilityIndex = 2
+	Item = CHOICESCARF
+	IV = 31,31,31,31,31,31
+	EV = 252,0,252,0,0,0
+	Nature = BOLD
+Pokemon = DITTO,25
+	AbilityIndex = 2
+	Item = CHOICESCARF
+	IV = 31,31,31,31,31,31
+	EV = 252,0,252,0,0,0
+	Nature = BOLD

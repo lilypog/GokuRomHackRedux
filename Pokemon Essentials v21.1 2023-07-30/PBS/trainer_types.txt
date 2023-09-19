@@ -483,3 +483,8 @@ Name = Rival
 Gender = Female
 BaseMoney = 100
 BattleBGM = EllieBGM
+#-------------------------------
+[RIVAL_ZACH_1]
+Name = Rival
+Gender = Male
+BaseMoney = 100

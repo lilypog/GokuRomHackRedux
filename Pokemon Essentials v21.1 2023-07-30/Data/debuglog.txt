@@ -1449,3 +1449,112 @@ Section000:45:in `<main>'
 
 ***Round 2***
 
+
+================================================================
+
+[Started battle] Single trainer battle (1 trainer(s) vs. 1 trainer(s))
+"You are challenged by Rival Ellie!"
+"Rival Ellie sent out Vanillite!"
+"Go! Blastoise!"
+[Round order] Blastoise (0), the opposing Vanillite (1)
+
+***Round 1***
+
+[AI] Vanillite (1) is considering using Powder Snow...
+     + 15: function code modifier (against target)
+[AI] Vanillite (1) is considering using Harden...
+     +  5: raising the user's Defense by 1
+     + 16: function code modifier (generic)
+[AI] Move choices for Vanillite (1):
+   *  45.5% to use Powder Snow: score 115
+   *  54.5% to use Harden: score 116
+   => will use Harden
+
+[Round order] Blastoise (0), the opposing Vanillite (1)
+
+"Blastoise, switch out! Come back!"
+"You're in charge, Poliwag!"
+[Use move] The opposing Vanillite (1) used Harden
+"The opposing Vanillite used Harden!"
+[Stat change] The opposing Vanillite's Defense changed by +1 (0 -> 1)
+"The opposing Vanillite's Defense rose!"
+
+[End of round 1]
+
+***Round 2***
+
+[AI] Vanillite (1) is considering using Powder Snow...
+     + 15: function code modifier (against target)
+     + 19: damaging move (predicted damage 15 = 78% of target's HP)
+[AI] Vanillite (1) is considering using Harden...
+     raising the user's Defense isn't worthwhile
+     - 40: function code modifier (generic)
+[AI] Move choices for Vanillite (1):
+   * 100.0% to use Powder Snow: score 134
+   *   0.0% to use Harden: score 60
+   => will use Powder Snow
+
+[Round order] Poliwag (0), the opposing Vanillite (1)
+
+[Use move] Poliwag (0) used Water Gun
+"Poliwag used Water Gun!"
+[HP change] The opposing Vanillite lost 6 HP (18=>12)
+[Use move] The opposing Vanillite (1) used Powder Snow
+"The opposing Vanillite used Powder Snow!"
+[HP change] Poliwag lost 14 HP (19=>5)
+"It's super effective!"
+
+[End of round 2]
+
+***Round 3***
+
+[AI] Vanillite (1) is considering using Powder Snow...
+     + 15: function code modifier (against target)
+     + 30: damaging move (predicted damage 15 = 300% of target's HP)
+     + 10: predicted to KO the target
+[AI] Vanillite (1) is considering using Harden...
+     raising the user's Defense isn't worthwhile
+     - 40: function code modifier (generic)
+[AI] Move choices for Vanillite (1):
+   * 100.0% to use Powder Snow: score 155
+   *   0.0% to use Harden: score 60
+   => will use Powder Snow
+
+[Round order] Poliwag (0), the opposing Vanillite (1)
+
+[Use move] Poliwag (0) used Water Gun
+"Poliwag used Water Gun!"
+[HP change] The opposing Vanillite lost 6 HP (12=>6)
+[Use move] The opposing Vanillite (1) used Powder Snow
+"The opposing Vanillite used Powder Snow!"
+[HP change] Poliwag lost 5 HP (5=>0)
+"It's super effective!"
+"Poliwag fainted!"
+
+[End of round 3]
+"Just a little more! Hang in there, Blastoise!"
+
+***Round 4***
+
+[AI] Vanillite (1) is considering using Powder Snow...
+     + 15: function code modifier (against target)
+[AI] Vanillite (1) is considering using Harden...
+     +  3: raising the user's Defense by 1
+     +  0: function code modifier (generic)
+[AI] Move choices for Vanillite (1):
+   * 100.0% to use Powder Snow: score 115
+   *   0.0% to use Harden: score 100
+   => will use Powder Snow
+
+[Round order] Blastoise (0), the opposing Vanillite (1)
+
+[Use move] Blastoise (0) used Metal Claw
+"Blastoise used Metal Claw!"
+[HP change] The opposing Vanillite lost 6 HP (6=>0)
+"It's super effective!"
+"The opposing Vanillite fainted!"
+
+***Player won***
+"You defeated Rival Ellie!"
+"WHAT THE FUCK"
+"You got $500 for winning!"
