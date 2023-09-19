@@ -386,7 +386,7 @@ Pokemon = WEEZING,75
 	IV = 31,31,31,31,31,31
 	EV = 252,0,252,4,0,0
 	Nature = BOLD
-    #-------------------------------
+#-------------------------------
 [TOPLANER,Tak]
 Items = FULLRESTORE,FULLRESTORE,FULLRESTORE,FULLRESTORE
 LoseText = Ahh, I don't know why we went in one at a time...
@@ -433,3 +433,15 @@ Pokemon = LATIOS,80
     Nature = TIMID
     IV = 31,2,31,30,31,30
     EV = 4,0,0,252,252,0
+#-------------------------------
+[RIVAL_ELLIE_1,Ellie]
+LoseText = WHAT THE FUCK
+POKEMON = Vanillite,5
+#-------------------------------
+[RIVAL_ELLIE_1,Ellie,1]
+LoseText = WHAT THE FUCK
+POKEMON = Larvitar,5
+#-------------------------------
+[RIVAL_ELLIE_1,Ellie,2]
+LoseText = WHAT THE FUCK
+POKEMON = Poliwag,5
