@@ -165,7 +165,7 @@ class DiegoWTsStarterSelection
       @sprites["ball_2"].opacity += 255/20
       @sprites["ball_3"].opacity += 255/20
       @sprites["textwnd"].opacity += 255/20
-      pbWait(0.05)
+      pbWait(0.01)
     end
     @sprites["textbox"].text = _INTL("<ac>Choose a Pokémon.</ac>")
     pbStartChoosing
@@ -442,7 +442,7 @@ class DiegoWTsStarterSelection
         @sprites["shadow_#{i}"].opacity -= 155/10
         @sprites["ball_#{i}"].opacity -= 105/10
       end
-      pbWait(0.05)
+      pbWait(0.01)
     end
     20.times do
       pbUpdateSpriteHash(@sprites)
@@ -455,20 +455,20 @@ class DiegoWTsStarterSelection
       @sprites["ballbase"].y -= 40/20
       @sprites["ballbase"].zoom_x += zoom/20 if StarterSelSettings::STARTERCZ >= 1
       @sprites["ballbase"].zoom_y += zoom/20 if StarterSelSettings::STARTERCZ >= 1
-      pbWait(0.05)
+      pbWait(0.01)
     end
     2.times do
       pbUpdateSpriteHash(@sprites)
       @sprites["ballbase"].x += 6 if @select == 1
       @sprites["ballbase"].x -= 6 if @select == 3
-      pbWait(0.05)
+      pbWait(0.01)
     end
     @sprites["ballbase"].x = @sprites["ball_2"].x if @select != 1
     GameData::Species.play_cry_from_species(@pkmn_array[@select-1]) if StarterSelSettings::STARTERCRY 
     10.times do
       pbUpdateSpriteHash(@sprites)
       @sprites["pkmn_#{@select}"].opacity += 255/10
-      pbWait(0.05)
+      pbWait(0.01)
     end
     pbChoiceBoxes(0) # Turn on the choice boxes
     confirm = pbConfirm
@@ -485,13 +485,13 @@ class DiegoWTsStarterSelection
       10.times do
         pbUpdateSpriteHash(@sprites)
         @sprites["pkmn_#{@select}"].opacity -= 255/10
-        pbWait(0.05)
+        pbWait(0.01)
       end
       2.times do
         pbUpdateSpriteHash(@sprites)
         @sprites["ballbase"].x -= 6 if @select == 1
         @sprites["ballbase"].x += 6 if @select == 3
-        pbWait(0.05)
+        pbWait(0.01)
       end
       20.times do
         pbUpdateSpriteHash(@sprites)
@@ -504,7 +504,7 @@ class DiegoWTsStarterSelection
         @sprites["ballbase"].y += 40/20
         @sprites["ballbase"].zoom_x -= zoom/20 if StarterSelSettings::STARTERCZ >= 1
         @sprites["ballbase"].zoom_y -= zoom/20 if StarterSelSettings::STARTERCZ >= 1
-        pbWait(0.05)
+        pbWait(0.01)
       end
       @sprites["ballbase"].x = @sprites["ball_#{@select}"].x if @select != 1
       @sprites["select"].visible = true
@@ -523,7 +523,7 @@ class DiegoWTsStarterSelection
           @sprites["shadow_#{i}"].opacity += 155/10
           @sprites["ball_#{i}"].opacity += 105/10
         end
-        pbWait(0.05)
+        pbWait(0.01)
       end
     end
   end
@@ -586,7 +586,7 @@ class DiegoWTsStarterSelection
       @sprites["ballbase"].opacity -= 255/20
       @sprites["pkmn_#{@select}"].opacity -= 255/20
       @sprites["textwnd"].opacity -= 255/20
-      pbWait(0.05)
+      pbWait(0.01)
     end
     pbDisposeSpriteHash(@sprites)  
     @viewport.dispose    

@@ -11,7 +11,7 @@ module StarterSelSettings
   STARTERL = 5
  
 # Interface style (1 for HGSS, 2 for BW):
-  INSTYLE = 1
+  INSTYLE = 2
 
 # Form of each Starter species:
   STARTER1F = 0 # First Starter
