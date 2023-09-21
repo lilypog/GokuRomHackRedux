@@ -449,6 +449,7 @@ Pokemon = POLIWAG,5
 [RIVAL_ZACH_1,Zach]
 LoseText = Ick
 Pokemon = LARVITAR,5
+Pokemon= KLINK,5
 #-------------------------------
 [RIVAL_ZACH_1,Zach,1]
 LoseText = Ick
