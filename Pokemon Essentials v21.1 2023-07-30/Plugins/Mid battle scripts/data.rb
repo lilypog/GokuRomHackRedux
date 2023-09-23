@@ -64,6 +64,11 @@ module DialogueModule
 		battle.pbCallForHelp(battle.battlers[1])
 		}
 		
-		
+################# Philippe Scripts ###################
+    TheBoys=Proc.new{|battle|
+        battle.scene.pbShowOpponent(0,true)
+        pbMessage("THE BOYS!")
+        battle.scene.pbHideOpponent
+        }
 # DONT DELETE THIS END
 end
