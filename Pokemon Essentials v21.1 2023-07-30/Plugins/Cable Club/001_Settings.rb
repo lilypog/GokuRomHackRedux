@@ -1,5 +1,5 @@
 module CableClub
-  HOST = "127.0.0.1"
+  HOST = "10.0.25.10"
   PORT = 9999
   
   ONLINE_TRAINER_TYPE_LIST = [
