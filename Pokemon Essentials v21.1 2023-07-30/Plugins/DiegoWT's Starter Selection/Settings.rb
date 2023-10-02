@@ -13,10 +13,30 @@ module StarterSelSettings
 # Interface style (1 for HGSS, 2 for BW):
   INSTYLE = 2
 
+# Background choice (1 for lab's table, 2 for grass)
+  STARTERBG = 1
+
 # Form of each Starter species:
-  STARTER1F = 0 # First Starter
-  STARTER2F = 0 # Second Starter
-  STARTER3F = 0 # Third Starter
+  STARTER1FORM = 0 # First Starter
+  STARTER2FORM = 0 # Second Starter
+  STARTER3FORM = 0 # Third Starter
+
+# Shininess of each Starter species, 0 is random, 1 locks to not shiny, 2 locks to shiny:
+  STARTER1SHINY = 0 # First Starter
+  STARTER2SHINY = 0 # Second Starter
+  STARTER3SHINY = 0 # Third Starter
+
+# Whether if each Starter species will have random IVs or not, 0 is random, 1 is 31 IVs for each status:
+  STARTER1IV = 0 # First Starter
+  STARTER2IV = 0 # Second Starter
+  STARTER3IV = 0 # Third Starter
+# You can also edit the Script to change the values to something other than 31, lines: 79, 93 and 107
+
+# Item of each Starter species (nil is nothing):
+  STARTER1ITEM = nil # First Starter
+  STARTER2ITEM = nil # Second Starter
+  STARTER3ITEM = nil # Third Starter
+# Use the ID of the items when defining them here, and put an : before the name. Such as :ORANBERRY
   
 # Horizontal and vertical values for editing the starter position:
   STARTER1X = 0; STARTER1Y = 0 # First Starter
@@ -37,6 +57,6 @@ module StarterSelSettings
 # Configuration for using two gradients to match both types' colors of the starter.
 # This will also work if one or more of your starters only have one type.
 # Set true if you want it, or false if not:
-  TYPE2COLOR = false
+  TYPE2COLOR = true
 
 end
