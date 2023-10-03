@@ -31,3 +31,13 @@ SurfCharset = girl_surf
 DiveCharset = girl_surf
 FishCharset = girl_fish_offset
 SurfFishCharset = girl_fish_offset
+#-------------------------------
+[3]
+TrainerType = POKEMONTRAINER_NB
+WalkCharset = trainer_POKEMONTRAINER_NB
+RunCharset = nb_run
+CycleCharset = nb_bike
+SurfCharset = girl_surf
+DiveCharset = girl_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = girl_fish_offset
