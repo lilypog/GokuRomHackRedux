@@ -311,9 +311,13 @@ EventHandlers.add(:on_map_or_spriteset_change, :show_location_window,
       nosignpost = true if $game_map.name == pbGetMapNameFromId($PokemonGlobal.mapTrail[1])
     end
     scene.spriteset.addUserSprite(LocationWindow.new($game_map.name)) if !nosignpost
-    scene.spriteset.addUserSprite(MusicWindow.new("Song: " + $game_variables[30].to_s))
   }
 )
+EventHandlers.add(:on_map_or_spriteset_change, :show_song_name,
+  proc { |scene, map_changed|
+    scene.spriteset.addUserSprite(MusicWindow.new("Song: " + $game_map.bgm_name))
+    
+  })
 
 #===============================================================================
 # Event locations, terrain tags
@@ -403,7 +407,6 @@ end
 #===============================================================================
 def pbCueBGM(bgm, seconds, volume = nil, pitch = nil)
   return if !bgm
-  $game_variables[30] = bgm.to_s
   bgm = pbResolveAudioFile(bgm, volume, pitch)
   playingBGM = $game_system.playing_bgm
   if !playingBGM || playingBGM.name != bgm.name || playingBGM.pitch != bgm.pitch
