@@ -41,6 +41,48 @@ class LocationWindow
 end
 
 #===============================================================================
+# Music signpost
+#===============================================================================
+class MusicWindow
+  APPEAR_TIME = 0.4   # In seconds; is also the disappear time
+  LINGER_TIME = 1.6   # In seconds; time during which self is fully visible
+
+  def initialize(name)
+    @window = Window_AdvancedTextPokemon.new(name)
+    @window.resizeToFit(name, Graphics.width)
+    @window.x        = 0
+    @window.y        = -@window.height
+    @window.viewport = Viewport.new(0, 60, Graphics.width, Graphics.height)
+    @window.viewport.z = 99999
+    @currentmap = $game_map.map_id
+    @timer_start = System.uptime
+  end
+
+  def disposed?
+    return @window.disposed?
+  end
+
+  def dispose
+    @window.dispose
+  end
+
+  def update
+    return if @window.disposed?
+    @window.update
+    if $game_temp.message_window_showing || @currentmap != $game_map.map_id
+      @window.dispose
+      return
+    end
+    if System.uptime - @timer_start >= APPEAR_TIME + LINGER_TIME
+      @window.y = lerp(0, -@window.height, APPEAR_TIME, @timer_start + APPEAR_TIME + LINGER_TIME, System.uptime)
+      @window.dispose if @window.y + @window.height <= 0
+    else
+      @window.y = lerp(-@window.height, 0, APPEAR_TIME, @timer_start, System.uptime)
+    end
+  end
+end
+
+#===============================================================================
 # Visibility circle in dark maps
 #===============================================================================
 class DarknessSprite < Sprite
