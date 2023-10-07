@@ -76,6 +76,7 @@ def pbBattleAnimation(bgm = nil, battletype = 0, foe = nil)
   # Play battle music
   bgm = pbGetWildBattleBGM([]) if !bgm
   pbBGMPlay(bgm)
+  $scene.spriteset.addUserSprite(MusicWindow.new("Song: " + bgm.name.to_s))
   # Determine location of battle
   location = 0   # 0=outside, 1=inside, 2=cave, 3=water
   if $PokemonGlobal.surfing || $PokemonGlobal.diving
