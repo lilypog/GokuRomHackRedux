@@ -25,6 +25,8 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,13,11
 BattleBack = field
+WildBattleBGM = Route 1
+WildVictoryBGM = bingus
 #-------------------------------
 [006]   # Kurt's house
 Name = Route 1

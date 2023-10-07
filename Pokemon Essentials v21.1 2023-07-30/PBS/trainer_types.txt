@@ -415,6 +415,7 @@ VictoryBGM = Battle victory leader
 Name = Jungler
 Gender = Male
 BaseMoney = 10
+BattleBGM = Lappet Town
 #-------------------------------
 [MIDLANER]
 Name = Mid Laner
